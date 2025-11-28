@@ -462,44 +462,6 @@
       "specialist_confirmation": "Aegean network integration validated"
     }
   },
-  "academic_specialist_validation": {
-    "colin_renfrew": {
-      "expertise": "Cambridge University Minoan Civilization Specialist",
-      "validation": "Minoan civilization complexity supports spiral interpretation",
-      "confidence_boost": "+10% Minoan specialist validation",
-      "endorsement": "Script interpretations align perfectly with Minoan expertise"
-    },
-    "artemis_karnava": {
-      "expertise": "University of Athens Minoan Scripts Specialist",
-      "validation": "Linear A-Phaistos Disc bridge same civilization validated",
-      "confidence_boost": "+12% Minoan scripts validation",
-      "endorsement": "Same civilization bridge academically validated"
-    },
-    "john_younger": {
-      "expertise": "University of Kansas Aegean Scripts Specialist",
-      "validation": "Aegean scripts comparative analysis supports interpretations",
-      "confidence_boost": "+10% Aegean specialist validation",
-      "endorsement": "Aegean scripts interpretations validated"
-    },
-    "yves_duhoux": {
-      "expertise": "University of Louvain Aegean Scripts Specialist",
-      "validation": "Aegean administrative systems support interpretations",
-      "confidence_boost": "+9% Aegean administrative validation",
-      "endorsement": "Administrative interpretations validated"
-    },
-    "louis_godart": {
-      "expertise": "University of Naples Minoan-Mycenaean Scripts Specialist",
-      "validation": "Minoan-Mycenaean administrative evolution supports interpretations",
-      "confidence_boost": "+8% Evolution specialist validation",
-      "endorsement": "Administrative evolution patterns validated"
-    },
-    "fritz_schachermeyr": {
-      "expertise": "University of Vienna Minoan Civilization Specialist",
-      "validation": "Minoan civilization development supports spiral innovation",
-      "confidence_boost": "+7% Civilization development validation",
-      "endorsement": "Civilization development academically validated"
-    }
-  },
   "revolutionary_breakthrough_significance": {
     "historical_impact": "First successful Phaistos Disc decipherment in 115 years",
     "archaeological_enigma": "Ultimate archaeological enigma solved - world's most mysterious artifact",
@@ -514,7 +476,6 @@
     "symbol_confidence_range": "94-100%",
     "formula_confidence_range": "95-100%",
     "archaeological_validation": "100% context confirmation",
-    "academic_validation": "100% specialist endorsement",
     "spiral_innovation": "100% revolutionary structure confirmation",
     "methodology_version": "Universal Ancient Script Decipherment v9.0",
     "completion_status": "COMPLETE - Ultimate Archaeological Enigma Mastery Achieved"
