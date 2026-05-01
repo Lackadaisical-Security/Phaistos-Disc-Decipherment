@@ -4,15 +4,15 @@
 
 **From `spiral_structure_methodology` in lexicon:**
 ```json
-"reading_direction": "Clockwise spiral from outer edge to center",
-"spiral_segments": "Outer (authority) → Middle (content) → Inner (validation)"
+"reading_direction": "Clockwise spiral from center to edge",
+"spiral_segments": "Inner (authority) → Middle (content) → Outer (validation)"
 ```
 
 **Interpretation:**
-- START: Outer edge of spiral
-- DIRECTION: Clockwise (with clock direction)
-- END: Center of spiral
-- SEQUENCE: Outer (authority) → Middle (content) → Inner (validation)
+- START: Center of spiral
+- DIRECTION: Counter-Clockwise (with clock direction)
+- END: Outside Edge of spiral
+- SEQUENCE: Inner (authority) → Middle (content) → Outer (validation)
 
 ---
 
@@ -24,7 +24,7 @@
 - START: Center of spiral
 - DIRECTION: Counter-clockwise (against clock direction)
 - END: Outer edge
-- SEQUENCE: **REVERSED** from lexicon: Inner → Middle → Outer
+- SEQUENCE: from lexicon: Inner → Middle → Outer
 
 ---
 
