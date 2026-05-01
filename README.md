@@ -37,6 +37,8 @@
 | Document | Status | Description |
 |----------|--------|-------------|
 | [Research Methodology](PHAISTOS_DISC_RESEARCH_METHODOLOGY.md) | ✅ **COMPLETE** | Universal Framework Application |
+| [Reading Direction](phaistos_reverse_reading_analysis.md) | ✅ **COMPLETE** | Inner-Outward Counter-Clockwise Reading Direction |
+| [Cross Script Translation](phaistos_four_script_hypothetical_translation.md) | ✅ **COMPLETE** | 4 Way Cross-Script Translation and Validation |
 
 ### **🗃️ Phase Research Logs (Detailed)**
 | Document | Status | Description |
@@ -51,8 +53,7 @@
 ### **💾 JSON Data Archives**
 | File | Description | Content |
 |------|-------------|---------|
-| [Final Lexicon Complete](FINAL_PHAISTOS_DISC_LEXICON_COMPLETE.json) | Complete Sign Database | 30KB - All symbols & meanings |
-| [Master Lexicon](phaistos_disc_lexicon_MASTER-2025-09-11.json) | Master Sign Database | 25KB - Complete symbol catalog |
+| [Final Master Lexicon](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json) | Master Sign Database | 25KB - Complete symbol catalog |
 | [Basic Lexicon](phaistos_disc_lexicon.json) | Core Lexicon | 22KB - Essential symbols |
 
 ---
@@ -202,7 +203,6 @@ This work is dual-licensed under:
 
 ### **Research Network**
 - [All Deciphered Scripts](../decipherment-drops.html) - 7+ major breakthroughs
-- [Master Achievement List](../MASTER_DECIPHERMENT_LIST_2025.md) - Complete timeline
 - [Lackadaisical Security](https://lackadaisical-security.com) - Primary research portal
 
 ---
@@ -212,7 +212,7 @@ This work is dual-licensed under:
 ### **For Researchers**
 - [📖 Start Here: Final Lexicon](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json)
 - [💾 Data: Phase Documentation](Phaistos-Disc-Phase1.md) → [Phase 8](Phaistos-Disc-Phase8.md)
-- [📝 Detailed Translation and Decipherment](phaistos_side_a_HYPOTHETICAL_COMPLETE.md) → [4 Script Translation](phaistos_4script_independent_translation.md) → [Independent Validation Results](translation_reproducibility_validation.md)
+- [📝 Detailed Translation and Decipherment](phaistos_side_a_HYPOTHETICAL_COMPLETE.md) → [4 Script Translation](phaistos_four_script_hypothetical_translation.md) → [Independent Validation Results](translation_reproducibility_validation.md)
 
 ### **For Academics**
 - [🔬 Methodology: Universal Framework](PHAISTOS_DISC_RESEARCH_METHODOLOGY.md)
