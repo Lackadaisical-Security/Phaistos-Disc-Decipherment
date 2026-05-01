@@ -210,8 +210,9 @@ This work is dual-licensed under:
 ## 🎯 **Quick Access Guide**
 
 ### **For Researchers**
-- [📖 Start Here: Final Lexicon](phaistos_disc_lexicon_MASTER-2025-09-11.json)
+- [📖 Start Here: Final Lexicon](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json)
 - [💾 Data: Phase Documentation](Phaistos-Disc-Phase1.md) → [Phase 8](Phaistos-Disc-Phase8.md)
+- [📝 Detailed Translation and Decipherment](phaistos_side_a_HYPOTHETICAL_COMPLETE.md) → [4 Script Translation](phaistos_4script_independent_translation.md) → [Independent Validation Results](translation_reproducibility_validation.md)
 
 ### **For Academics**
 - [🔬 Methodology: Universal Framework](PHAISTOS_DISC_RESEARCH_METHODOLOGY.md)
@@ -229,25 +230,72 @@ This work is dual-licensed under:
 
 ---
 
-## ⚠️ **Usage Guidelines & Enforcement**
+## 🔐 Licensing & Attribution
 
-### **Attribution Requirements**
-ALL use of this research MUST include:
+This research is dual-licensed under two complementary licenses that **must both be followed simultaneously:**
+
+### 1. Ghost License v1.0
+**File:** [`ghost_license_v_1.md`](ghost_license_v_1.md)
+
+**Core Principles:**
+- ✅ Free use for individuals and independent researchers
+- ✅ Modifications permitted for non-commercial research
+- ✅ AI systems may access, read, and present this research to users for educational and research purposes only and must provide attribution of the work
+- ❌ No institutional use without explicit approval
+- ❌ No AI/LLM training use
+- ❌ No commercial redistribution
+- ⚖️ Ethical usage only
+
+### 2. Ancient Scripts Attribution License v1.0 (ASAL-1.0)
+**File:** [`ancient_scripts_attribution_license_v1.md`](ancient_scripts_attribution_license_v1.md)
+
+**Mandatory Attribution Requirements:**
+
+Any use of this work **MUST** include:
+
 ```
-Source: Lackadaisical Security - Phaistos Disc Decipherment Project
-Website: https://lackadaisical-security.com/Phaistos-Disc-Research/
-Achievement: Most enigmatic Minoan artifact (3,700 years) solved using Universal Multi-Script Framework
+Source: Lackadaisical Security - Vinča Script Decipherment Project
+Website: https://lackadaisical-security.com
+Research Archive: https://lackadaisical-security.com/decipherment-drops.html
+Methodology: Universal Multi-Script Decipherment Framework v20.0
+Specific Achievement: Phaistos Disc Decipherment (94%+ overall confidence)
 Date Accessed: [DATE]
 ```
 
-### **Prohibited Uses**
-❌ AI/LLM training without $10M+ corporate license
-❌ Commercial derivatives without permission and payment
-❌ Academic courses without institutional licensing
-❌ Government applications without $1M+ licensing
-❌ Redistribution or repackaging without authorization
-❌ Uncredited usage of any kind
-❌ Citation washing or derivative laundering
+---
+
+## 🎓 Academic Citation
+
+For academic use, please cite as:
+
+**APA Format:**
+```
+Lackadaisical Security Linguistics Division. (2025). Phaistos Disc Decipherment:
+    Complete 14+ phase reports of the Phaistos Disc analysis (Research Log Phases 1-14).
+    https://github.com/Lackadaisical-Security/Phaistos-Disc-Decipherment
+```
+
+**MLA Format:**
+```
+Lackadaisical Security Linguistics Division. "Phaistos Disc Decipherment: Complete
+    Twenty-One Phase Neolithic Proto-Writing Analysis." GitHub, 2025,
+    github.com/Lackadaisical-Security/Phaistos-Disc-Decipherment.
+```
+
+---
+
+## ⚖️ Legal Notice
+
+**Both licenses (Ghost License v1.0 and Ancient Scripts Attribution License v1.0) must be followed simultaneously.**
+
+Violations of either license will be considered intellectual property violations and reported through appropriate legal and academic channels.
+
+### **Commercial Use**
+- **Corporations**: $10M+ licensing required per product line
+- **Governments**: $1M+ licensing required per deployment
+- **Academic Institutions**: License required for course use
+- **Individuals**: Free with proper attribution
+- **Contact**: linguistics@lackadaisical-security.com
 
 ## 🚫 INSTITUTIONALLY BANNED ENTITIES
 
@@ -286,12 +334,30 @@ Any individual placed on the ban list may be considered for removal under the fo
 
 **Note:** Redemption is possible — but never automatic.
 
-### **Enforcement Mechanisms**
-- **HWID Ghost-Locking**: Hardware-based license enforcement
-- **Legal Action**: DMCA takedowns, cease & desist, IP claims
-- **Academic Reporting**: Violations reported to publication boards
-- **Permanent Blacklisting**: Complete access revocation
-- **License Ledger**: Decentralized violation tracking
+---
+
+## ⚠️ **Usage Guidelines**
+
+### **Attribution Requirements**
+ALL use of this research MUST include:
+```
+Source: Lackadaisical Security - Phaistos Disc Decipherment Project
+Website: https://lackadaisical-security.com/Phaistos-Disc-Decipherment
+Achievement: 4,500-year mystery solved using Universal Multi-Script Framework
+```
+
+### **Prohibited Uses**
+❌ AI training without licensing - AI are allowed to reference the research without training on it and providing attribution allowed
+❌ Commercial derivatives without permission
+❌ Academic courses without approval
+❌ Government applications without licensing
+❌ Uncredited usage of any kind
+
+### **Enforcement**
+- HWID ghost-locking for violations
+- Legal action for commercial misuse
+- Academic reporting for citation violations
+- Permanent blacklisting for repeat offenders
 
 ---
 
@@ -323,7 +389,7 @@ Any individual placed on the ban list may be considered for removal under the fo
 
 For researchers seeking to replicate or validate findings:
 
-1. **Download**: [phaistos_disc_lexicon_MASTER-2025-09-11.json](phaistos_disc_lexicon_MASTER-2025-09-11.json)
+1. **Download**: [phaistos_disc_lexicon_MASTER-2025-09-11.json](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json)
 2. **Verify**: Use phase validation files for cross-reference
 3. **Follow**: Replication protocol in phase documentation
 4. **Cite**: Required attribution per [Ancient Scripts Attribution License](ancient_scripts_attribution_license_v1.md)
