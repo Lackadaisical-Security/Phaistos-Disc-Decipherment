@@ -11,7 +11,7 @@
 
 ## 🚀 **Historic Achievement**
 
-**Phaistos Disc Script Deciphered** (September 2025)
+**Phaistos Disc Script Deciphered** (Aug 18th, 2025 - Released Publicly Dec 1st)
 - **3,700-year mystery SOLVED** - Most enigmatic Minoan artifact
 - **First complete decipherment** of the spiral disc script
 - **Both sides decoded** revealing administrative and religious content
@@ -21,26 +21,7 @@
 
 ## 📚 **Research Archive Structure**
 
-### **🎯 8-Phase Research Pipeline**
-| Document | Status | Description |
-|----------|--------|-------------|
-| [Phase 1](Phaistos-Disc-Phase1.md) | ✅ **COMPLETE** | Enhanced Minoan Administrative Classification |
-| [Phase 2](Phaistos-Disc-Phase2.md) | ✅ **COMPLETE** | Eight-Script Universal Pattern Correlation |
-| [Phase 3](Phaistos-Disc-Phase3.md) | ✅ **COMPLETE** | Minoan Palatial Integration |
-| [Phase 4](Phaistos-Disc-Phase4.md) | ✅ **COMPLETE** | Spiral Symbolic System Analysis |
-| [Phase 5](Phaistos-Disc-Phase5.md) | ✅ **COMPLETE** | Archaeological Integration Context |
-| [Phase 6](Phaistos-Disc-Phase6.md) | ✅ **COMPLETE** | Academic Validation & Cross-Reference |
-| [Phase 7](Phaistos-Disc-Phase7.md) | ✅ **COMPLETE** | Final Synthesis & Validation |
-| [Phase 8](Phaistos-Disc-Phase8.md) | ✅ **COMPLETE** | Complete Solution Archive |
-
-### **📊 Research Documentation (Markdown)**
-| Document | Status | Description |
-|----------|--------|-------------|
-| [Research Methodology](PHAISTOS_DISC_RESEARCH_METHODOLOGY.md) | ✅ **COMPLETE** | Universal Framework Application |
-| [Reading Direction](phaistos_reverse_reading_analysis.md) | ✅ **COMPLETE** | Inner-Outward Counter-Clockwise Reading Direction |
-| [Cross Script Translation](phaistos_four_script_hypothetical_translation.md) | ✅ **COMPLETE** | 4 Way Cross-Script Translation and Validation |
-
-### **🗃️ Phase Research Logs (Detailed)**
+### **🗃️ First Pass Phase Research Logs**
 | Document | Status | Description |
 |----------|--------|-------------|
 | [Phase 1 Log](PHAISTOS_DISC_PHASE_1_RESEARCH_LOG.md) | ✅ **COMPLETE** | 6KB Detailed Analysis |
@@ -50,11 +31,32 @@
 | [Phase 5 Log](PHAISTOS_DISC_PHASE_5_RESEARCH_LOG.md) | ✅ **COMPLETE** | 9KB Archaeological Context |
 | [Phase 6 Log](PHAISTOS_DISC_PHASE_6_RESEARCH_LOG.md) | ✅ **COMPLETE** | 9KB Academic Validation |
 
+### **🎯 Second Pass 8-Phase Research Pipeline**
+| Document | Status | Description |
+|----------|--------|-------------|
+| [Phase 1](Phaistos-Disc-Phase1.md) | ✅ **COMPLETE** | 56.8 KB Enhanced Minoan Administrative Classification |
+| [Phase 2](Phaistos-Disc-Phase2.md) | ✅ **COMPLETE** | 82.5 KB Eight-Script Universal Pattern Correlation |
+| [Phase 3](Phaistos-Disc-Phase3.md) | ✅ **COMPLETE** | 62.2 KB Minoan Palatial Integration |
+| [Phase 4](Phaistos-Disc-Phase4.md) | ✅ **COMPLETE** | 54.7 KB Spiral Symbolic System Analysis |
+| [Phase 5](Phaistos-Disc-Phase5.md) | ✅ **COMPLETE** | 56.9 KB Archaeological Integration Context |
+| [Phase 6](Phaistos-Disc-Phase6.md) | ✅ **COMPLETE** | 33.4 KB Academic Validation & Cross-Reference |
+| [Phase 7](Phaistos-Disc-Phase7.md) | ✅ **COMPLETE** | 41 KB Final Synthesis & Validation |
+| [Phase 8](Phaistos-Disc-Phase8.md) | ✅ **COMPLETE** | 28.4 KB Complete Solution Archive |
+
+### **📊 Research Documentation (Markdown)**
+| Document | Status | Description |
+|----------|--------|-------------|
+| [Research Methodology](PHAISTOS_DISC_RESEARCH_METHODOLOGY.md) | ✅ **COMPLETE** | Universal Framework Application |
+| [Reading Direction](phaistos_reverse_reading_analysis.md) | ✅ **COMPLETE** | Inner-Outward Counter-Clockwise Reading Direction |
+| [Cross Script Translation](phaistos_four_script_hypothetical_translation.md) | ✅ **COMPLETE** | 4 Way Cross-Script Translation and Validation |
+
 ### **💾 JSON Data Archives**
 | File | Description | Content |
 |------|-------------|---------|
-| [Final Master Lexicon](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json) | Master Sign Database | 25KB - Complete symbol catalog |
+| [Final Master Lexicon](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json) | Master Sign Database | 28KB - Complete symbol catalog |
 | [Basic Lexicon](phaistos_disc_lexicon.json) | Core Lexicon | 22KB - Essential symbols |
+| [LS Phaistos Disc Traced - Side A](Crete_Phaistos_disk_side_A-TRACEDBYOPERATOR-LACKADAISICALSECURITY.png) | Side A Manually Traced with Boundary Lines | 8.85 MB - Complete Side A Trace - Machine/Vision readable |
+| [LS Phaistos Disc Traced - Side B](Crete_Phaistos_disk_side_B-TRACEDBYOPERATOR-LACKADAISICALSECURITY.png) | Side B Manually Traced with Boundary Lines | 7.57 MB - Complete Side B Trace - Machine/Vision readable |
 
 ---
 
@@ -120,7 +122,7 @@
 6. **Academic Cross-Reference**: Cross-compare/validate and reference against public academic work
 
 ### **Breakthrough Innovations**
-- **Spiral Reading Pattern**: Clockwise center-outward decipherment
+- **Spiral Reading Pattern**: Counter-Clockwise center-outward decipherment
 - **Dual-Content Recognition**: Administrative/religious division
 - **Minoan Administrative Formulas**: Bureaucratic pattern identification
 - **Clay Technology Analysis**: Manufacturing technique insights
@@ -190,7 +192,7 @@ This work is dual-licensed under:
 ## 🔗 **Related Research**
 
 ### **Complementary Script Studies**
-- [**Proto-Elamite**](../Proto-Elamite-Decipherment/) - World's oldest writing system (91% confidence)
+- [**Proto-Elamite**](../Proto-Elamite-Decipherment/) - One of the World's oldest writing system (91% confidence)
 - [**Linear A**](../Linear-A-Research/) - Minoan administrative script (5-minute breakthrough)
 - [**Indus Valley**](../Indus-Valley-Research/) - Urban civilization script (89% confidence)
 - [**Byblos Script**](../Byblos-Script-Research/) - Proto-alphabetic development
@@ -199,10 +201,10 @@ This work is dual-licensed under:
 - [**Byblos Complete**](../BYBLOS_COMPLETE_RESEARCH_DOCUMENTATION.md) - Proto-alphabetic analysis
 - [**Cypro-Minoan Complete**](../CYPRO_MINOAN_COMPLETE_RESEARCH_DOCUMENTATION.md) - Mediterranean script
 - [**Linear Elamite Complete**](../LINEAR_ELAMITE_COMPLETE_RESEARCH_DOCUMENTATION.md) - Later Elamite development
-- [**Proto-Elamite Complete**](../PROTO_ELAMITE_COMPLETE_RESEARCH_DOCUMENTATION.md) - Earliest writing system
+- [**Proto-Elamite Complete**](../PROTO_ELAMITE_COMPLETE_RESEARCH_DOCUMENTATION.md) - One of the Earliest writing system
 
 ### **Research Network**
-- [All Deciphered Scripts](../decipherment-drops.html) - 7+ major breakthroughs
+- [All Deciphered Scripts](../decipherment-drops.html) - 17+ major breakthroughs
 - [Lackadaisical Security](https://lackadaisical-security.com) - Primary research portal
 
 ---
@@ -378,7 +380,7 @@ Achievement: 4,500-year mystery solved using Universal Multi-Script Framework
 
 **Project Status**: ✅ **HISTORIC BREAKTHROUGH ACHIEVED**
 **World Record**: Most enigmatic ancient artifact ever deciphered (3,700 years)
-**Last Updated**: November 2025
+**Last Updated**: May 2026
 **Maintained by**: [Lackadaisical Security - Linguistics Division](https://lackadaisical-security.com)
 
 > *"After 3,700 years of mystery, the Phaistos Disc speaks again. Its spiral script reveals the sophisticated administrative heart of Minoan civilization through the Universal Multi-Script Framework."*
