@@ -71,7 +71,7 @@
 
 ### **Spiral Structure Decoded (100% Confidence)**
 - **Dual-Side Format**: Administrative (Side A) and Religious (Side B) content
-- **Spiral Reading Pattern**: Clockwise from center outward confirmed
+- **Spiral Reading Pattern**: Counter-Clockwise from center outward confirmed
 - **Word Boundaries**: Clear delineation markers identified
 - **Administrative Formulas**: Standardized bureaucratic expressions
 
