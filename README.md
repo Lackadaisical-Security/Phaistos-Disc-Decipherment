@@ -391,7 +391,7 @@ Achievement: 4,500-year mystery solved using Universal Multi-Script Framework
 
 For researchers seeking to replicate or validate findings:
 
-1. **Download**: [phaistos_disc_lexicon_MASTER-2025-09-11.json](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json)
+1. **Download**: [phaistos_disc_lexicon_MASTER-2025-011-28-fixed.json](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json)
 2. **Verify**: Use phase validation files for cross-reference
 3. **Follow**: Replication protocol in phase documentation
 4. **Cite**: Required attribution per [Ancient Scripts Attribution License](ancient_scripts_attribution_license_v1.md)
