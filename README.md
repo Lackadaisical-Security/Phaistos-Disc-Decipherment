@@ -53,7 +53,7 @@
 ### **💾 JSON Data Archives**
 | File | Description | Content |
 |------|-------------|---------|
-| [Final Master Lexicon](phaistos_disc_lexicon_MASTER-2025-01-28-fixed.json) | Master Sign Database | 28KB - Complete symbol catalog |
+| [Final Master Lexicon](phaistos_disc_lexicon_MASTER-2026-10-28.json) | Master Sign Database | 114KB - Complete symbol catalog |
 | [Basic Lexicon](phaistos_disc_lexicon.json) | Core Lexicon | 22KB - Essential symbols |
 | [LS Phaistos Disc Traced - Side A](Crete_Phaistos_disk_side_A-TRACEDBYOPERATOR-LACKADAISICALSECURITY.png) | Side A Manually Traced with Boundary Lines | 8.85 MB - Complete Side A Trace - Machine/Vision readable |
 | [LS Phaistos Disc Traced - Side B](Crete_Phaistos_disk_side_B-TRACEDBYOPERATOR-LACKADAISICALSECURITY.png) | Side B Manually Traced with Boundary Lines | 7.57 MB - Complete Side B Trace - Machine/Vision readable |
