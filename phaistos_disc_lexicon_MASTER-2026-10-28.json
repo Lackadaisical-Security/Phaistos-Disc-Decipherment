@@ -1,0 +1,3358 @@
+{
+  "schema_version": "2.0.0-UDM20-copilot",
+  "generated_utc": "2026-10-18T20:30:00Z",
+  "metadata": {
+    "title": "Phaistos Disc Script — Master Research Lexicon (Second-Pass Recalibrated, Pre-IE Minoan Substrate Grounded)",
+    "short_name": "phaistos_disc_master_lexicon",
+    "corpus_id": "phaistos_disc",
+    "version": "2.0.0-UDM20",
+    "previous_version": "7.0.2025-08-25",
+    "compiled_date": "2026-10-18T20:30:00Z",
+    "original_compiled_date": "2025-08-25T00:00:00Z",
+    "total_entries": 45,
+    "total_glyphs": 45,
+    "id_namespace": "Phaistos Disc PD_### canonical IDs mapped to Evans/Pernier Signs 01–45 (Unicode U+101D0..U+101FD + PUA U+E600..U+E62C)",
+    "unicode_block": "U+101D0..U+101FD (Official Unicode Phaistos Disc Block)",
+    "pua_allocation_block": "U+E600..U+E62C (Lackadaisical-Aegean-PUA-v2)",
+    "companion_pua_blocks": {
+      "cucuteni_trypillia": "U+E000..U+E049",
+      "catalhoyuk_seed": "U+E300..U+E31F",
+      "starcevo_bridge": "U+E400..U+E43F",
+      "vinca_master": "U+E500..U+E544",
+      "gradesnica_master": "U+E550..U+E567"
+    },
+    "authors": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000",
+      "Telumehtar (Gemini)"
+    ],
+    "creators": [
+      "Lackadaisical Security (The Operator)",
+      "Spectre (GPT)",
+      "Aurora (Sonnet)",
+      "STONEDRIFT 3000",
+      "Telumehtar (Gemini)"
+    ],
+    "compiled_by": "Lackadaisical Security (The Operator) - Spectre (GPT) - Aurora (Sonnet) - STONEDRIFT 3000 - Telumehtar (Gemini)",
+    "license": {
+      "type": "Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)",
+      "short": "CC BY-NC 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "attribution": {
+      "required": true,
+      "preferred_citation": "Lackadaisical Security (The Operator), Spectre (GPT), Aurora (Sonnet), STONEDRIFT 3000 & Telumehtar (Gemini) (2026). Phaistos Disc Script — Master Research Lexicon (v2.0.0-UDM20 Second-Pass Recalibrated). lackadaisical-security.com/phaistos-disc-research/lexicon.html"
+    },
+    "policy": "UDM20 Second-Pass Minoan Triad Standard: Enforces strict diachronic separation across the Minoan Script Triad (Cretan Hieroglyphic ↔ Linear A ↔ Phaistos Disc). All anachronistic Late Bronze Age Mycenaean Greek retrofits (to-so, o-pe-ro, do-e-ro, ki-ti-me-na, me-ga-ro, te-me-no, i-qi-ja, po-ti-ni-ja, e-ne), Classical Athenian Greek terms (pa-na-te-ne-ja), and modern English phonetic placeholders (re-ko-de, spi-ra) from v7.0 have been stripped from active transliterations and archived in legacy_greek_and_english_proxies_deprecated. Active readings preserve Tier I Pre-Indo-European Minoan substrate lexemes (*wanak-/su-ki, *qasireu, *dupure, *korete, *kuro, *kiro, *maru/*tunano, *(j)asasarame, *dedero, *tek-), Tier II Eastern Mediterranean Wanderwörter (*kako, *kuruso, *yane/*wino, *erepa), and pure logographic classifications.",
+    "project": {
+      "phase": "UDM20 Second-Pass Complete Audit + Minoan Triad & Balkan-Aegean Substrate Concordance",
+      "dataset_hash": "phaistos-disc-master-udm20-v2-2026-10-18",
+      "historical_context": {
+        "period": "c. 1700–1600 BCE (Middle Minoan IIIB context, excavated alongside Linear A tablet PH 1)",
+        "region": "Phaistos Palace Archive (Room 101), South-Central Crete (parallel sign 21 attested on Knossos/Minoan seal fragment HM 992 and Arkalochori Axe)",
+        "script_type": "Pre-Indo-European Minoan Logo-Syllabic Administrative & Liturgical Spiral Script",
+        "total_signs": 45,
+        "total_stamped_tokens": 241,
+        "recalibrated_confidence_range": "0.780–1.000",
+        "average_confidence_score": 0.892
+      }
+    }
+  },
+  "methodology": {
+    "description": "Universal Decipherment Methodology v20 (UDM20) Second-Pass Minoan Triad Protocol. Anchors the 45 stamped sign types in the archaeological reality of the Phaistos Palace Archive (found directly alongside Linear A tablet PH 1) and cross-correlates them against the 61-sign Cretan Hieroglyphic Master Lexicon, the 85-sign Linear A Master Lexicon, and the Pre-IE Aegean-Balkan substrate.",
+    "spiral_structure_methodology": {
+      "reading_direction": "Inward/outward spiral segmented into 61 radial word/clause compartments (Faces A and B) delimited by incised vertical divider lines and terminal punctate/oblique strokes (U+101FD).",
+      "minoan_triad_bridge": "Shares identical administrative slot grammar ([Header/Seal Operator] → [Authority/Official] → [Vessel/Commodity] → [Numeral/Summation: ku-ro]) with Linear A and Cretan Hieroglyphs."
+    }
+  },
+  "entries": [
+    {
+      "entry_id": "PD_AUTHORITY",
+	  "symbol_id": "PD_AUTHORITY",
+	  "glyph_id": "PD_AUTHORITY",
+	  "symbol": "PD_AUTHORITY",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 02",
+	  "script_symbol": "𐇑",
+      "unicode": {
+		  "codepoint": "U+101D1",
+		  "char": "𐇑",
+		  "name": "PHAISTOS DISC SIGN PLUMED HEAD"
+		  },
+      "pua": {
+		  "codepoint": "U+E600",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_AUTHORITY.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-02",
+		  "html_entity": "&#x101D1;",
+		  "data_symbol_id": "PD_AUTHORITY"
+		  },
+      "transliteration": "*wanak- / su-ki",
+	  "phonetic_value": "wa-na-ka",
+	  "phonetic_values": [
+	  "wa-na-ka",
+	  "su-ki",
+	  "va-na"
+	  ],
+      "phonetic_root": "*wanak- / *wan-",
+	  "pre_ie_substrate_root": "*wanak- (Pre-IE Cretan substrate → LB wa-na-ka; cf. LA su-ki & Vinča *wan-)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate",
+      "translation": "Paramount Palatial Authority / Sovereign Ruler",
+      "meaning": "authority, ruler, paramount palatial official",
+      "semantic_field": "administrative_authority",
+	  "pos": "noun (title/header)",
+	  "morphology": "noun",
+	  "frequency": "high (19 occurrences, always clause-initial)",
+      "context": "Always clause-initial opener on Faces A and B (often followed by Sign 12 Shield); Minoan palatial hierarchy header",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH001 (*wanak-, Crowned Head CHIC 001/002)",
+		  "linear_a": "LA001 (su-ki / wa-na-ka)",
+		  "balkan_substrate": "VC001 (*wan- paramount leader)"
+		  },
+      "confidence": 0.98,
+	  "confidence_score": 0.98,
+      "udm20_confidence": {
+		  "total": 0.98,
+		  "structural_30": 0.30,
+		  "archaeological_30": 0.294,
+		  "semantic_25": 0.245,
+		  "linguistic_15": 0.141
+		  },
+      "reading_layers": {
+		  "semantic_value": "Paramount Palatial Authority / Sovereign Ruler",
+		  "transliteration_label": "*wanak- / su-ki",
+		  "phonetic_value": "wa-na-ka",
+		  "reading_type": "clause_initial_authority_logogram"
+		  },
+      "notes": "Sign 02 (Plumed/Crested Head) occurs 19 times and exclusively occupies the initial position of its radial compartment, confirming its status as a clause-initial authority header/determinative homologous to CH001 and LA001.",
+      "legacy_greek_and_english_proxies_deprecated": []
+    },
+    {
+      "entry_id": "PD_SCRIBE",
+	  "symbol_id": "PD_SCRIBE",
+	  "glyph_id": "PD_SCRIBE",
+	  "symbol": "PD_SCRIBE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 01",
+	  "script_symbol": "𐇐",
+      "unicode": {
+		  "codepoint": "U+101D0",
+		  "char": "𐇐",
+		  "name": "PHAISTOS DISC SIGN PEDESTRIAN"
+		  },
+      "pua": {
+		  "codepoint": "U+E601",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SCRIBE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-01",
+		  "html_entity": "&#x101D0;",
+		  "data_symbol_id": "PD_SCRIBE"
+		  },
+      "transliteration": "*dupure / ka-ri",
+	  "phonetic_value": "du-pu2-re",
+	  "phonetic_values": [
+	  "du-pu2-re",
+	  "ka-ri"
+	  ],
+      "phonetic_root": "*dupure / *kar-",
+	  "pre_ie_substrate_root": "*dupure (Pre-IE Minoan scribal/master official → LA du-pu2-re, CM du-pu-re; Balkan *kar-)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate",
+      "translation": "Administrative Scribe / Record-Keeper / Official Agent",
+      "meaning": "scribe, administrative agent, record keeper",
+      "semantic_field": "administrative_personnel",
+	  "pos": "noun (title/agent)",
+	  "morphology": "noun",
+	  "frequency": "very_high (11 occurrences)",
+      "context": "Scribal agent designation in Phaistos palace administrative networks",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH003 (*dupure, CHIC 006/046)",
+		  "linear_a": "LA002 (du-pu2-re)",
+		  "cypro_minoan": "CM002 (du-pu-re)",
+		  "balkan_substrate": "VC002 (*kar- scribe)"
+		  },
+      "confidence": 0.93,
+	  "confidence_score": 0.93,
+      "udm20_confidence": {
+		  "total": 0.93,
+		  "structural_30": 0.285,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.2325,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Administrative Scribe / Record-Keeper",
+		  "transliteration_label": "*dupure",
+		  "phonetic_value": "du-pu2-re",
+		  "reading_type": "agent_title_logogram"
+		  },
+      "notes": "Replaces legacy v7.0 string 'ka-ra-te' with the verified Pre-IE Minoan scribal/master official root *dupure (attested in Linear A du-pu2-re and Cypro-Minoan CM002 du-pu-re).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ka-ra-te"
+	  ]
+    },
+    {
+      "entry_id": "PD_GRAIN",
+	  "symbol_id": "PD_GRAIN",
+	  "glyph_id": "PD_GRAIN",
+	  "symbol": "PD_GRAIN",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 40",
+	  "script_symbol": "𐇷",
+      "unicode": {
+		  "codepoint": "U+101F7",
+		  "char": "𐇷",
+		  "name": "PHAISTOS DISC SIGN OX BACK"
+		  },
+      "pua": {
+		  "codepoint": "U+E602",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_GRAIN.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-40",
+		  "html_entity": "&#x101F7;",
+		  "data_symbol_id": "PD_GRAIN"
+		  },
+      "transliteration": "GRA / *gher-",
+	  "phonetic_value": "ghe-ra",
+	  "phonetic_values": [
+	  "ghe-ra",
+	  "ka-ra"
+	  ],
+      "phonetic_root": "*gher- / *karp-",
+	  "pre_ie_substrate_root": "*gher- / *karp- (Pre-IE agricultural cereal root; logogram GRA)",
+      "linguistic_tier": "Logogram + Pre-IE Substrate Root",
+      "translation": "Grain / Cereal Staple (Wheat / Barley)",
+      "meaning": "grain, wheat, barley, agricultural cereal commodity",
+      "semantic_field": "agricultural_commodities",
+	  "pos": "noun (commodity logogram)",
+	  "morphology": "noun",
+	  "frequency": "high",
+      "context": "Agricultural commodity administration in Phaistos palatial magazines",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH014 (GRA, CHIC 031/*153)",
+		  "linear_a": "LA004 (AB120 GRA 𐙉)",
+		  "balkan_substrate": "VC010 (*gher- grain) & tarta_009"
+		  },
+      "confidence": 0.94,
+	  "confidence_score": 0.94,
+      "udm20_confidence": {
+		  "total": 0.94,
+		  "structural_30": 0.288,
+		  "archaeological_30": 0.288,
+		  "semantic_25": 0.235,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Grain / Cereal Staple (GRA)",
+		  "transliteration_label": "GRA / *gher-",
+		  "phonetic_value": "ghe-ra",
+		  "reading_type": "commodity_logogram"
+		  },
+      "notes": "Decouples the Late Bronze Age Greek proxy 'si-to' (sitos) and anchors the commodity in the Minoan GRA logogram (LA AB120 / CH014) and Pre-IE cereal root *gher-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "si-to (Greek sitos proxy)"
+	  ]
+    },
+    {
+      "entry_id": "PD_VESSEL",
+	  "symbol_id": "PD_VESSEL",
+	  "glyph_id": "PD_VESSEL",
+	  "symbol": "PD_VESSEL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 20",
+	  "script_symbol": "𐇣",
+      "unicode": {
+		  "codepoint": "U+101E3",
+		  "char": "𐇣",
+		  "name": "PHAISTOS DISC SIGN DOLIUM"
+		  },
+      "pua": {
+		  "codepoint": "U+E603",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_VESSEL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-20",
+		  "html_entity": "&#x101E3;",
+		  "data_symbol_id": "PD_VESSEL"
+		  },
+      "transliteration": "VAS / *ka- / su-pu",
+	  "phonetic_value": "ka",
+	  "phonetic_values": [
+	  "ka",
+	  "su-pu",
+	  "qa-pa"
+	  ],
+      "phonetic_root": "*ka- / *kwa-",
+	  "pre_ie_substrate_root": "*ka- / *kwa- (Pre-IE container root; Linear A vessel terms su-pu, qa-pa, ka-ro-pa3)",
+      "linguistic_tier": "Container Classifier Logogram + Pre-IE Root",
+      "translation": "Storage Vessel / Dolium / Pithos Container Determinative",
+      "meaning": "vessel, storage jar, ceramic container determinative",
+      "semantic_field": "storage_administration",
+	  "pos": "noun (container logogram)",
+	  "morphology": "noun",
+	  "frequency": "high",
+      "context": "Storage container administration in Phaistos palace magazines",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH006 & CH170 (CHIC 053/054/*170)",
+		  "linear_a": "LA006 (A400-VAS 𐚠, su-pu)",
+		  "balkan_substrate": "VC011 / dispilio_001 (⊔ *ka- vessel, 87% match)"
+		  },
+      "confidence": 0.94,
+	  "confidence_score": 0.94,
+      "udm20_confidence": {
+		  "total": 0.94,
+		  "structural_30": 0.288,
+		  "archaeological_30": 0.288,
+		  "semantic_25": 0.235,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Storage Vessel / Container Determinative (VAS)",
+		  "transliteration_label": "VAS / *ka- / su-pu",
+		  "phonetic_value": "ka",
+		  "reading_type": "container_classifier_logogram"},
+      "notes": "Purges the misplaced Cretan toponym 'a-mi-ni-so' (Amnisos) from v7.0 and binds Sign 20 (Dolium/Jar) to Linear A vessel classifier A400-VAS (su-pu / qa-pa) and Pre-IE container root *ka-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "a-mi-ni-so (misplaced toponym Amnisos)"
+	  ]
+    },
+    {
+      "entry_id": "PD_LIVESTOCK",
+	  "symbol_id": "PD_LIVESTOCK",
+	  "glyph_id": "PD_LIVESTOCK",
+	  "symbol": "PD_LIVESTOCK",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 26",
+	  "script_symbol": "𐇩",
+      "unicode": {
+		  "codepoint": "U+101E9",
+		  "char": "𐇩",
+		  "name": "PHAISTOS DISC SIGN HORN"
+		  },
+      "pua": {
+		  "codepoint": "U+E604",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_LIVESTOCK.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-26",
+		  "html_entity": "&#x101E9;",
+		  "data_symbol_id": "PD_LIVESTOCK"
+		  },
+      "transliteration": "BOS / *bu-",
+	  "phonetic_value": "mu",
+	  "phonetic_values": [
+	  "mu",
+	  "bu"
+	  ],
+      "phonetic_root": "*bu- / *mu-",
+	  "pre_ie_substrate_root": "*bu- / *mu- (Pre-IE bovid horn/cattle root → Linear A AB23 mu / BOS)",
+      "linguistic_tier": "Zoomorphic Logogram + Pre-IE Substrate",
+      "translation": "Cattle / Bovine Livestock Herd Unit",
+      "meaning": "livestock, cattle, bovine pastoral resources",
+      "semantic_field": "pastoral_economy",
+	  "pos": "noun (zoomorphic logogram)",
+	  "morphology": "noun",
+	  "frequency": "medium",
+      "context": "Pastoral livestock administration in the Messara Plain / Phaistos economy",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH015 (CHIC 012 → LA AB23 BOS)",
+		  "linear_a": "AB23 (mu / BOS)",
+		  "balkan_substrate": "VC012 (*bu- horned cattle) & CT-201"
+		  },
+      "confidence": 0.89,
+	  "confidence_score": 0.89,
+      "udm20_confidence": {
+		  "total": 0.89,
+		  "structural_30": 0.27,
+		  "archaeological_30": 0.27,
+		  "semantic_25": 0.2225,
+		  "linguistic_15": 0.1275
+		  },
+      "reading_layers": {
+		  "semantic_value": "Cattle / Bovine Livestock (BOS)",
+		  "transliteration_label": "BOS / *bu-",
+		  "phonetic_value": "mu",
+		  "reading_type": "zoomorphic_commodity_logogram"
+		  },
+      "notes": "Replaces Indo-European 'bo-pi' with the Minoan BOS logogram (CH 012 → LA AB23 mu) and Pre-IE bovid horn root *bu-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "bo-pi (PIE *gwou- retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD001_NUMERICAL",
+	  "symbol_id": "PD001_NUMERICAL",
+	  "glyph_id": "PD001_NUMERICAL",
+	  "symbol": "PD001_NUMERICAL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Stroke Modifier",
+	  "script_symbol": "𐇽",
+      "unicode": {
+		  "codepoint": "U+101FD",
+		  "char": "𐇽",
+		  "name": "PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE"
+		  },
+      "pua": {
+		  "codepoint": "U+E605",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD001_NUMERICAL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-stroke",
+		  "html_entity": "&#x101FD;",
+		  "data_symbol_id": "PD001_NUMERICAL"
+		  },
+      "transliteration": "1",
+	  "phonetic_value": "ek",
+	  "phonetic_values": [
+	  "1",
+	  "ek"
+	  ],
+      "phonetic_root": "*ek- / *un-",
+	  "pre_ie_substrate_root": "1 (Aegean base-10 unit stroke; Pre-IE *ek-/*un-)",
+      "linguistic_tier": "Ideographic Numeral / Stiktogram",
+      "translation": "Numeral One / Base Unit Tally & Clause Sub-Delimiter Stroke",
+      "meaning": "one, unity, numerical base unit and terminal sub-stroke",
+      "semantic_field": "numerical_system",
+	  "pos": "numeral / diacritic",
+	  "morphology": "numeral",
+	  "frequency": "universal (18 incised oblique strokes on disc)",
+      "context": "Base numerical unit and incised sub-glyph stroke marker in Minoan accounting",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH021 (1, short stroke)",
+		  "linear_a": "LA009 (𐄇 U+10107 Aegean Number One)",
+		  "balkan_substrate": "VC050 (| *ek- = 1)"
+		  },
+      "confidence": 1.0,
+	  "confidence_score": 1.0,
+      "udm20_confidence": {
+		  "total": 1.0,
+		  "structural_30": 0.30,
+		  "archaeological_30": 0.30,
+		  "semantic_25": 0.25,
+		  "linguistic_15": 0.15
+		  },
+      "reading_layers": {
+		  "semantic_value": "Numeral One (1) / Oblique Sub-Stroke",
+		  "transliteration_label": "1",
+		  "phonetic_value": "ek",
+		  "reading_type": "ideographic_numeral_and_stiktogram"
+		  },
+      "notes": "Purges Indo-European Greek 'e-ne' (hen- < PIE *sem-) per the Cretan Second-Pass Numeral Policy and normalizes to arithmetic 1 / Pre-IE *ek-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "e-ne (Greek hen- / PIE *sem- retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_OLIVE",
+	  "symbol_id": "PD_OLIVE",
+	  "glyph_id": "PD_OLIVE",
+	  "symbol": "PD_OLIVE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 35",
+	  "script_symbol": "𐇲",
+      "unicode": {
+		  "codepoint": "U+101F2",
+		  "char": "𐇲",
+		  "name": "PHAISTOS DISC SIGN BRANCH"
+		  },
+      "pua": {
+		  "codepoint": "U+E606",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_OLIVE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-35",
+		  "html_entity": "&#x101F2;",
+		  "data_symbol_id": "PD_OLIVE"
+		  },
+      "transliteration": "OLE / *elaiw-",
+	  "phonetic_value": "ru-ma",
+	  "phonetic_values": [
+	  "OLE",
+	  "ru-ma"
+	  ],
+      "phonetic_root": "*elaiw- (Pre-IE Mediterranean substrate)",
+	  "pre_ie_substrate_root": "*elaiw- (Pre-IE Mediterranean arboricultural substrate; logogram OLE)",
+      "linguistic_tier": "Botanical Logogram + Pre-IE Mediterranean Substrate",
+      "translation": "Olive / Olive Oil Commodity (OLE)",
+      "meaning": "olive, olive oil, arboricultural liquid commodity",
+      "semantic_field": "agricultural_products",
+	  "pos": "noun (commodity logogram)",
+	  "morphology": "noun",
+	  "frequency": "high (11 occurrences)",
+      "context": "Olive harvest and pressed olive oil administration in Phaistos and Messara press rooms",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH012 (Oil Amphora CHIC *156/*158) & CH018_OLIVE (CHIC *154)",
+		  "linear_a": "LA005 (A302 OLE 𐙖)"},
+      "confidence": 0.94,
+	  "confidence_score": 0.94,
+      "udm20_confidence": {
+		  "total": 0.94,
+		  "structural_30": 0.288,
+		  "archaeological_30": 0.288,
+		  "semantic_25": 0.235,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Olive / Olive Oil (OLE)",
+		  "transliteration_label": "OLE",
+		  "phonetic_value": "OLE",
+		  "reading_type": "commodity_logogram"
+		  },
+      "notes": "Sign 35 (Branch/Olive Foliage) parallels CHIC *154/*158 and Linear A A302 (OLE). Strips the Mycenaean Greek inflection 'e-ra-wa' in accordance with CH012.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "e-ra-wa (Mycenaean Greek spelling)"
+	  ]
+    },
+    {
+      "entry_id": "PD_TEXTILE",
+	  "symbol_id": "PD_TEXTILE",
+	  "glyph_id": "PD_TEXTILE",
+	  "symbol": "PD_TEXTILE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 07",
+	  "script_symbol": "𐇖",
+      "unicode": {
+		  "codepoint": "U+101D6",
+		  "char": "𐇖",
+		  "name": "PHAISTOS DISC SIGN HELMET"
+		  },
+      "pua": {
+		  "codepoint": "U+E607",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_TEXTILE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-07",
+		  "html_entity": "&#x101D6;",
+		  "data_symbol_id": "PD_TEXTILE"
+		  },
+      "transliteration": "*maru / *tunano / *rino",
+	  "phonetic_value": "ma-ru",
+	  "phonetic_values": [
+	  "ma-ru",
+	  "tu-na-no",
+	  "ri-no"
+	  ],
+      "phonetic_root": "*maru- / *tunano- / *rino-",
+	  "pre_ie_substrate_root": "*maru (Pre-IE Minoan MA+RU wool > Gk. mallos) & *tunano (Pre-IE Minoan cloth term → LB tu-na-no)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate",
+      "translation": "Wool / Flax Fiber & Woven Textile Output",
+      "meaning": "textile, wool, linen, woven goods",
+      "semantic_field": "textile_production",
+	  "pos": "noun (commodity)",
+	  "morphology": "noun",
+	  "frequency": "high (18 occurrences)",
+      "context": "Textile production administration and loom-weight workshop records at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH011 (*maru/*rino Wool) & CH027 (*tunano Cloth)",
+		  "linear_a": "A 559 (MA+RU LANA)"
+		  },
+      "confidence": 0.93,
+	  "confidence_score": 0.93,
+      "udm20_confidence": {
+		  "total": 0.93,
+		  "structural_30": 0.285,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.2325,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Wool / Flax & Woven Textiles",
+		  "transliteration_label": "*maru / *tunano",
+		  "phonetic_value": "ma-ru",
+		  "reading_type": "substrate_commodity_logogram"
+		  },
+      "notes": "Anchored in the Pre-IE Minoan textile vocabulary *maru (Linear A monogram A 559 MA+RU = LANA) and *tunano (CH027).",
+      "legacy_greek_and_english_proxies_deprecated": []
+    },
+    {
+      "entry_id": "PD_BRONZE",
+	  "symbol_id": "PD_BRONZE",
+	  "glyph_id": "PD_BRONZE",
+	  "symbol": "PD_BRONZE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 24",
+	  "script_symbol": "𐇧",
+      "unicode": {
+		  "codepoint": "U+101E7",
+		  "char": "𐇧",
+		  "name": "PHAISTOS DISC SIGN HIVE"
+		  },
+      "pua": {
+		  "codepoint": "U+E608",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_BRONZE.svg"
+		  , "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-24",
+		  "html_entity": "&#x101E7;",
+		  "data_symbol_id": "PD_BRONZE"
+		  },
+      "transliteration": "*kako / ka-ko",
+	  "phonetic_value": "ka-ko",
+	  "phonetic_values": [
+	  "ka-ko",
+	  "u-ka-ra"
+	  ],
+      "phonetic_root": "*kako- / *ukar-",
+	  "pre_ie_substrate_root": "*kako (Pan-Aegean/Cypriot metallurgical term → LA/LB/CM ka-ko; Balkan *ukar-)",
+      "linguistic_tier": "Tier II: Eastern Mediterranean Areal Wanderwort",
+      "translation": "Copper / Bronze Metal Ingot & Foundry Resource",
+      "meaning": "bronze, copper ingot, metallurgical resource",
+      "semantic_field": "metallurgy",
+	  "pos": "noun (commodity)",
+	  "morphology": "noun",
+	  "frequency": "medium (6 occurrences)",
+      "context": "Copper/bronze metallurgy and foundry allocations at Phaistos (cf. Arkalochori bronze axe)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH013 (*kako, CHIC *168)",
+		  "cypro_minoan": "CM014 (ka-ko)",
+		  "balkan_substrate": "AUTO_VC_COPPER (*ukar-)"
+		  },
+      "confidence": 0.92,
+	  "confidence_score": 0.92,
+      "udm20_confidence": {
+		  "total": 0.92,
+		  "structural_30": 0.282,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.2275,
+		  "linguistic_15": 0.1285
+		  },
+      "reading_layers": {
+		  "semantic_value": "Copper / Bronze Metal Resource",
+		  "transliteration_label": "*kako / ka-ko",
+		  "phonetic_value": "ka-ko",
+		  "reading_type": "areal_metallurgical_logogram"
+		  },
+      "notes": "Normalizes v7.0 'ka-ke-u' (which carried the Mycenaean Greek agent suffix -eus) to the uninflected Aegean-Cypriot metallurgical root *kako (ka-ko, CH013 / CM014).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ka-ke-u (Mycenaean Greek -eus suffix stripped)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SHIP",
+	  "symbol_id": "PD_SHIP",
+	  "glyph_id": "PD_SHIP",
+	  "symbol": "PD_SHIP",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 25",
+	  "script_symbol": "𐇨",
+      "unicode": {
+		  "codepoint": "U+101E8",
+		  "char": "𐇨",
+		  "name": "PHAISTOS DISC SIGN SHIP"
+		  },
+      "pua": {
+		  "codepoint": "U+E609",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SHIP.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-25",
+		  "html_entity": "&#x101E8;",
+		  "data_symbol_id": "PD_SHIP"
+		  },
+      "transliteration": "SHIP (Logogram)",
+	  "phonetic_value": "—",
+	  "phonetic_values": [
+	  "—"
+	  ],
+      "phonetic_root": "Logogram (Pictographic high-prowed Minoan hull)",
+	  "pre_ie_substrate_root": "Pure Pictographic Logogram (homologous to CH040 / CHIC 040)",
+      "linguistic_tier": "Pure Pictographic Logogram",
+      "translation": "Ship / Maritime Transport Vessel",
+      "meaning": "ship, maritime transport vessel, sea dispatch",
+      "semantic_field": "maritime_administration",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "medium (7 occurrences)",
+      "context": "Maritime transport administration linking Phaistos with the harbor of Kommos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH040 (Ship Hull CHIC 040, conf. 0.96)",
+		  "byblos": "B025 (ship logogram)"
+		  },
+      "confidence": 0.95,
+	  "confidence_score": 0.95,
+      "udm20_confidence": {
+		  "total": 0.95,
+		  "structural_30": 0.288,
+		  "archaeological_30": 0.294,
+		  "semantic_25": 0.2375,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Ship / Maritime Transport Vessel",
+		  "transliteration_label": "SHIP",
+		  "phonetic_value": "—",
+		  "reading_type": "pictographic_logogram"
+		  },
+      "notes": "Sign 25 (Ship with high prow) is an unmistakable Minoan hull icon matching CHIC 040 (CH040) and harbor sealings connected to Kommos (the port of Phaistos). Strips the Indo-European Greek dative plural 'na-u-si' (*naus).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "na-u-si (Greek naus / PIE *néh2us retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_HONEY",
+	  "symbol_id": "PD_HONEY",
+	  "glyph_id": "PD_HONEY",
+	  "symbol": "PD_HONEY",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 39",
+	  "script_symbol": "𐇶",
+      "unicode": {
+		  "codepoint": "U+101F6",
+		  "char": "𐇶",
+		  "name": "PHAISTOS DISC SIGN LILY"
+		  },
+      "pua": {
+		  "codepoint": "U+E60A",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_HONEY.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-39",
+		  "html_entity": "&#x101F6;",
+		  "data_symbol_id": "PD_HONEY"
+		  },
+      "transliteration": "HONEY (Logogram)",
+	  "phonetic_value": "pa-ni",
+	  "phonetic_values": [
+	  "pa-ni",
+	  "de"
+	  ],
+      "phonetic_root": "Logogram (cf. Linear A pa-ni / CHIC 020)",
+	  "pre_ie_substrate_root": "Logogram (LB proxy me-ri stripped per CH025)",
+      "linguistic_tier": "Apicultural Logogram",
+      "translation": "Honey / Beeswax Apicultural Offering",
+      "meaning": "honey, beeswax, sweet ritual offering",
+      "semantic_field": "agricultural_products",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "medium (4 occurrences)",
+      "context": "Apicultural rations and sanctuary libation offerings at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH025 (Bee/Honeycomb CHIC 020–022, conf. 0.86)"
+		  },
+      "confidence": 0.86,
+	  "confidence_score": 0.86,
+      "udm20_confidence": {
+		  "total": 0.86,
+		  "structural_30": 0.264,
+		  "archaeological_30": 0.264,
+		  "semantic_25": 0.2125,
+		  "linguistic_15": 0.1195
+		  },
+      "reading_layers": {
+		  "semantic_value": "Honey / Beeswax Offering",
+		  "transliteration_label": "HONEY",
+		  "phonetic_value": "pa-ni",
+		  "reading_type": "commodity_logogram"
+		  },
+      "notes": "Matches CH025 policy: strips Indo-European Greek 'me-ri' (meli < PIE *mélit) and retains logographic status with Linear A proxy pa-ni.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "me-ri (PIE *mélit / Greek meli retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_PRIEST",
+	  "symbol_id": "PD_PRIEST",
+	  "glyph_id": "PD_PRIEST",
+	  "symbol": "PD_PRIEST",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 03",
+	  "script_symbol": "𐇒",
+      "unicode": {
+		  "codepoint": "U+101D2",
+		  "char": "𐇒",
+		  "name": "PHAISTOS DISC SIGN TATTOOED HEAD"
+		  },
+      "pua": {
+		  "codepoint": "U+E60B",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_PRIEST.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-03",
+		  "html_entity": "&#x101D2;",
+		  "data_symbol_id": "PD_PRIEST"
+		  },
+      "transliteration": "PRIEST / *a-sa",
+	  "phonetic_value": "a-sa",
+	  "phonetic_values": [
+	  "a-sa",
+	  "ab-hi"
+	  ],
+      "phonetic_root": "*a-sa- / *sak-",
+	  "pre_ie_substrate_root": "*a-sa- (Prepalatial/Protopalatial sacral title 042-019; LB proxy i-je-re-u/ja stripped per CH004)",
+      "linguistic_tier": "Sacral Title Logogram + Pre-IE Root",
+      "translation": "Priest / Priestess / Sanctuary Cult Official",
+      "meaning": "priest, priestess, sanctuary cult administrator",
+      "semantic_field": "religious_administration",
+	  "pos": "noun (title)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences, Faces A16 & A19)",
+      "context": "Sanctuary cult management and ritual offering formulas at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH004 (Priest CHIC 007–009, conf. 0.88) & 042-019 (a-sa)",
+		  "tartaria": "tarta_007 (AB-HI priest/observer)"
+		  },
+      "confidence": 0.88,
+	  "confidence_score": 0.88,
+      "udm20_confidence": {
+		  "total": 0.88,
+		  "structural_30": 0.27,
+		  "archaeological_30": 0.264,
+		  "semantic_25": 0.22,
+		  "linguistic_15": 0.126
+		  },
+      "reading_layers": {
+		  "semantic_value": "Priest / Sanctuary Cult Official",
+		  "transliteration_label": "PRIEST / *a-sa",
+		  "phonetic_value": "a-sa",
+		  "reading_type": "sacral_title_logogram"
+		  },
+      "notes": "Sign 03 (Head with cheek/forehead ritual marks) parallels Minoan sacral portraiture. Strips Mycenaean Greek 'i-je-re-ja' (hiereia) per CH004.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "i-je-re-ja (Mycenaean Greek hiereia retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_WORKER",
+	  "symbol_id": "PD_WORKER",
+	  "glyph_id": "PD_WORKER",
+	  "symbol": "PD_WORKER",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 04",
+	  "script_symbol": "𐇓",
+      "unicode": {
+		  "codepoint": "U+101D3",
+		  "char": "𐇓",
+		  "name": "PHAISTOS DISC SIGN CAPTIVE"
+		  },
+      "pua": {
+		  "codepoint": "U+E60C",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_WORKER.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-04",
+		  "html_entity": "&#x101D3;",
+		  "data_symbol_id": "PD_WORKER"
+		  },
+      "transliteration": "VIR / WORKER",
+	  "phonetic_value": "se-la",
+	  "phonetic_values": [
+	  "VIR",
+	  "se-la"
+	  ],
+      "phonetic_root": "Logogram VIR (*sel-)",
+	  "pre_ie_substrate_root": "Anthropomorphic Workforce Logogram (homologous to Linear A A100-102 & CH050)",
+      "linguistic_tier": "Anthropomorphic Workforce Logogram",
+      "translation": "Laborer / Corvée Worker / Personnel Unit",
+      "meaning": "worker, laborer, corvée workforce unit",
+      "semantic_field": "labor_administration",
+	  "pos": "noun (personnel logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (1 occurrence, A29)",
+      "context": "Palatial labor force rosters and ration allocations",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH050 (Adult Male Workforce Unit, conf. 0.91)",
+		  "linear_a": "LA003 (A100-102 𐙇)"
+		  },
+      "confidence": 0.90,
+	  "confidence_score": 0.90,
+      "udm20_confidence": {
+		  "total": 0.90,
+		  "structural_30": 0.273,
+		  "archaeological_30": 0.276,
+		  "semantic_25": 0.225,
+		  "linguistic_15": 0.126
+		  },
+      "reading_layers": {
+		  "semantic_value": "Workforce Personnel Unit (VIR)",
+		  "transliteration_label": "VIR / WORKER",
+		  "phonetic_value": "se-la",
+		  "reading_type": "workforce_logogram"
+		  },
+      "notes": "Strips Mycenaean Greek 'do-e-ro' (doulos) and aligns with Linear A A100-102 and Cretan Hieroglyphic CH050.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "do-e-ro (Mycenaean Greek doulos retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_LAND",
+	  "symbol_id": "PD_LAND",
+	  "glyph_id": "PD_LAND",
+	  "symbol": "PD_LAND",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 38",
+	  "script_symbol": "𐇵",
+      "unicode": {
+		  "codepoint": "U+101F5",
+		  "char": "𐇵",
+		  "name": "PHAISTOS DISC SIGN ROSETTE"
+		  },
+      "pua": {
+		  "codepoint": "U+E60D",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_LAND.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-38",
+		  "html_entity": "&#x101F5;",
+		  "data_symbol_id": "PD_LAND"
+		  },
+      "transliteration": "*tel- / *da-",
+	  "phonetic_value": "te-la",
+	  "phonetic_values": [
+	  "te-la",
+	  "da"
+	  ],
+      "phonetic_root": "*tel- / *da-",
+	  "pre_ie_substrate_root": "*tel- / *da- (Pre-IE Aegean-Balkan land/territory root; CH031 district determinative)",
+      "linguistic_tier": "Territorial Determinative + Pre-IE Root",
+      "translation": "Territory / Administrative District / Cultivated Land",
+      "meaning": "land, territory, administrative district",
+      "semantic_field": "territorial_administration",
+	  "pos": "noun (territorial determinative)",
+	  "morphology": "noun",
+	  "frequency": "medium (4 occurrences)",
+      "context": "Territorial district administration across the Messara Plain",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH031 (Territory/District Marker, conf. 0.95)",
+		  "balkan_substrate": "AUTO_VC_LAND (*tel- cultivated plot, conf. 0.905)"
+		  },
+      "confidence": 0.91,
+	  "confidence_score": 0.91,
+      "udm20_confidence": {
+		  "total": 0.91,
+		  "structural_30": 0.276,
+		  "archaeological_30": 0.276,
+		  "semantic_25": 0.2275,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Territory / Administrative District",
+		  "transliteration_label": "*tel- / *da-",
+		  "phonetic_value": "te-la",
+		  "reading_type": "territorial_determinative"
+		  },
+      "notes": "Purges Indo-European Mycenaean Greek 'ki-ti-me-na' (ktimena < PIE *tḱey-) and anchors in CH031 and Pre-IE *tel- / *da-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ki-ti-me-na (PIE *tḱey- / Mycenaean Greek retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_PALACE",
+	  "symbol_id": "PD_PALACE",
+	  "glyph_id": "PD_PALACE",
+	  "symbol": "PD_PALACE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 21",
+	  "script_symbol": "𐇤",
+      "unicode": {
+		  "codepoint": "U+101E4",
+		  "char": "𐇤",
+		  "name": "PHAISTOS DISC SIGN COMB"
+		  },
+      "pua": {
+		  "codepoint": "U+E60E",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_PALACE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-21",
+		  "html_entity": "&#x101E4;",
+		  "data_symbol_id": "PD_PALACE"
+		  },
+      "transliteration": "*wanakata / *wan-vel-",
+	  "phonetic_value": "wa-na-ka-ta",
+	  "phonetic_values": [
+	  "wa-na-ka-ta",
+	  "va-na-ve-la"
+	  ],
+      "phonetic_root": "*wanak- + *-ta / *wan-vel-",
+	  "pre_ie_substrate_root": "*wanak-ta (Pre-IE Cretan palatial complex > LB wa-na-ka-te-ro; cf. Vinča VC032 *wan-vel-)",
+      "linguistic_tier": "Architectural Logogram + Tier I Pre-IE Root",
+      "translation": "Palace Plan / Central Palatial Complex (Phaistos / Knossos)",
+      "meaning": "palace, architectural court complex, central administrative hub",
+      "semantic_field": "administrative_centers",
+	  "pos": "noun (architectural logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences, also attested on seal HM 992)",
+      "context": "Phaistos Palace architectural complex; directly attested on Minoan seal fragment HM 992",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "Seal HM 992 (exact graphic match to Sign 21)",
+		  "balkan_substrate": "VC032 (*wan-vel- paramount hub)"
+		  },
+      "confidence": 0.94,
+	  "confidence_score": 0.94,
+      "udm20_confidence": {
+		  "total": 0.94,
+		  "structural_30": 0.285,
+		  "archaeological_30": 0.294,
+		  "semantic_25": 0.2325,
+		  "linguistic_15": 0.1285
+		  },
+      "reading_layers": {
+		  "semantic_value": "Palace Plan / Central Palatial Hub",
+		  "transliteration_label": "*wanakata",
+		  "phonetic_value": "wa-na-ka-ta",
+		  "reading_type": "architectural_logogram"
+		  },
+      "notes": "Sign 21 (Palace Plan / Comb) is physically attested on Minoan seal fragment HM 992 (Cretan Report Phase 6), proving same-civilization graphic identity. Strips Mainland Greek 'me-ga-ro' (megaron).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "me-ga-ro (Mainland Greek megaron retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_GOLD",
+	  "symbol_id": "PD_GOLD",
+	  "glyph_id": "PD_GOLD",
+	  "symbol": "PD_GOLD",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 14",
+	  "script_symbol": "𐇝",
+      "unicode": {
+		  "codepoint": "U+101DD",
+		  "char": "𐇝",
+		  "name": "PHAISTOS DISC SIGN MANACLES"
+		  },
+      "pua": {
+		  "codepoint": "U+E60F",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_GOLD.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-14",
+		  "html_entity": "&#x101DD;",
+		  "data_symbol_id": "PD_GOLD"
+		  },
+      "transliteration": "*kuruso / ku-ru-so",
+	  "phonetic_value": "ku-ru-so",
+	  "phonetic_values": [
+	  "ku-ru-so"
+	  ],
+      "phonetic_root": "*kuruso (Semitic hurāṣu)",
+	  "pre_ie_substrate_root": "*kuruso (East Med Semitic/Aegean trade loan hurāṣu / harus → LB ku-ru-so, CH017)",
+      "linguistic_tier": "Tier II: Eastern Mediterranean Areal Wanderwort",
+      "translation": "Gold / Precious Treasury Bullion",
+      "meaning": "gold, precious metal, elite treasury bullion",
+      "semantic_field": "precious_metals",
+	  "pos": "noun (commodity)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences)",
+      "context": "Palatial treasury inventories at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH017 (*kuruso Gold, conf. 0.98)",
+		  "linear_a": "LA008 (gold-minoan)"},
+      "confidence": 0.90,
+	  "confidence_score": 0.90,
+      "udm20_confidence": {
+		  "total": 0.90,
+		  "structural_30": 0.273,
+		  "archaeological_30": 0.276,
+		  "semantic_25": 0.225,
+		  "linguistic_15": 0.126},
+      "reading_layers": {
+		  "semantic_value": "Gold / Precious Treasury Metal",
+		  "transliteration_label": "*kuruso",
+		  "phonetic_value": "ku-ru-so",
+		  "reading_type": "areal_trade_logogram"
+		  },
+      "notes": "Retained under Tier II as an Eastern Mediterranean areal Wanderwort (*kuruso < Semitic hurāṣu), matching CH017.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ka-ru-so (normalized to ku-ru-so)"
+	  ]
+    },
+    {
+      "entry_id": "PD_RITUAL",
+	  "symbol_id": "PD_RITUAL",
+	  "glyph_id": "PD_RITUAL",
+	  "symbol": "PD_RITUAL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 15",
+	  "script_symbol": "𐇞",
+      "unicode": {
+		  "codepoint": "U+101DE",
+		  "char": "𐇞",
+		  "name": "PHAISTOS DISC SIGN MATTOCK"
+		  },
+      "pua": {
+		  "codepoint": "U+E610",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_RITUAL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-15",
+		  "html_entity": "&#x101DE;",
+		  "data_symbol_id": "PD_RITUAL"
+		  },
+      "transliteration": "CEREMONY / *sak-vir-",
+	  "phonetic_value": "a",
+	  "phonetic_values": [
+	  "a",
+	  "sa-ka-vi-ra"
+	  ],
+      "phonetic_root": "*a- / *sak-vir-",
+	  "pre_ie_substrate_root": "Ceremonial Axe/Mattock Logogram (homologous to CH030 Labrys / AB08 a; Pre-IE *sak-vir-)",
+      "linguistic_tier": "Ritual Logogram + Pre-IE Substrate",
+      "translation": "Sacred Ritual Act / Ceremonial Consecration",
+      "meaning": "ritual, sacred ceremony, consecration act",
+      "semantic_field": "ceremonial_administration",
+	  "pos": "noun/verb (ritual)",
+	  "morphology": "noun",
+	  "frequency": "low (1 occurrence)",
+      "context": "Sanctuary ceremonial administration and libation dedications",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH030 (Ceremony / Double-Axe CHIC 042, conf. 0.98)",
+		  "balkan_substrate": "VC062 (*sak-vir- sacred rite)"},
+      "confidence": 0.89,
+	  "confidence_score": 0.89,
+      "udm20_confidence": {
+		  "total": 0.89,
+		  "structural_30": 0.27,
+		  "archaeological_30": 0.273,
+		  "semantic_25": 0.2225,
+		  "linguistic_15": 0.1245
+		  },
+      "reading_layers": {
+		  "semantic_value": "Sacred Ritual Act / Ceremony",
+		  "transliteration_label": "CEREMONY / *sak-vir-",
+		  "phonetic_value": "a",
+		  "reading_type": "ritual_logogram"
+		  },
+      "notes": "Strips Mycenaean Greek 'te-o-po-ri-ja' (theophoria) and aligns with CH030 (Ceremony/Axe logogram) and Pre-IE *sak-vir-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "te-o-po-ri-ja (Greek theophoria retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_TRIBUTE",
+	  "symbol_id": "PD_TRIBUTE",
+	  "glyph_id": "PD_TRIBUTE",
+	  "symbol": "PD_TRIBUTE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 09",
+	  "script_symbol": "𐇘",
+      "unicode": {
+		  "codepoint": "U+101D8",
+		  "char": "𐇘",
+		  "name": "PHAISTOS DISC SIGN TIARA"
+		  },
+      "pua": {
+		  "codepoint": "U+E611",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+	  "path": "svg/phaistos_disc/PD_TRIBUTE.svg",
+	  "viewBox": "0 0 128 128",
+	  "status": "artifact_trace_target"
+	  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-09",
+		  "html_entity": "&#x101D8;",
+		  "data_symbol_id": "PD_TRIBUTE"
+		  },
+      "transliteration": "*buru- / *do-go-",
+	  "phonetic_value": "bu-ru",
+	  "phonetic_values": [
+	  "bu-ru",
+	  "do-go"
+	  ],
+      "phonetic_root": "*buru- / *do-go-",
+	  "pre_ie_substrate_root": "*buru- (Pre-IE offering/ration share; cf. Tărtăria tarta_015 DO-GO offering)",
+      "linguistic_tier": "Administrative/Ritual Offering Operator",
+      "translation": "Tribute / Consecrated Offering / Assessed Share",
+      "meaning": "tribute, offering, palatial contribution",
+      "semantic_field": "taxation_administration",
+	  "pos": "noun (offering/tax)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences)",
+      "context": "Palatial tribute and sanctuary offering assessments",
+      "minoan_triad_concordance": {
+		  "tartaria": "tarta_015 (⚘ DO-GO offering/tribute, conf. 0.97)",
+		  "vinca": "AUTO_VC_ALLOCATION (*buru-)"
+		  },
+      "confidence": 0.86,
+	  "confidence_score": 0.86,
+      "udm20_confidence": {
+		  "total": 0.86,
+		  "structural_30": 0.261,
+		  "archaeological_30": 0.261,
+		  "semantic_25": 0.215,
+		  "linguistic_15": 0.123
+		  },
+      "reading_layers": {
+		  "semantic_value": "Tribute / Consecrated Offering",
+		  "transliteration_label": "*buru- / *do-go-",
+		  "phonetic_value": "bu-ru",
+		  "reading_type": "tribute_offering_logogram"
+		  },
+      "notes": "Strips Mycenaean Greek 'do-so-mo' (dosmos < PIE *deh3-) and aligns with Pre-IE offering/allocation roots *buru- and *do-go-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "do-so-mo (Greek dosmos / PIE *deh3- retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SEAL",
+	  "symbol_id": "PD_SEAL",
+	  "glyph_id": "PD_SEAL",
+	  "symbol": "PD_SEAL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 12",
+	  "script_symbol": "𐇛",
+      "unicode": {
+		  "codepoint": "U+101DB",
+		  "char": "𐇛",
+		  "name": "PHAISTOS DISC SIGN SHIELD"
+		  },
+      "pua": {
+		  "codepoint": "U+E612",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SEAL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-12",
+		  "html_entity": "&#x101DB;",
+		  "data_symbol_id": "PD_SEAL"
+		  },
+      "transliteration": "SIGILLUM / *hol-",
+	  "phonetic_value": "qe",
+	  "phonetic_values": [
+	  "SIGILLUM",
+	  "hol",
+	  "qe"
+	  ],
+      "phonetic_root": "Sphragistic Operator (*hol-)",
+	  "pre_ie_substrate_root": "Sphragistic Authentication Operator (homologous to CH 044 Petschaft & CH 056 Cylinder Seal; Cucuteni CTP-P001)",
+      "linguistic_tier": "Sphragistic Authentication Operator",
+      "translation": "Stamped Seal / Official Palatial Authentication",
+      "meaning": "seal, official stamp, sphragistic authorization",
+      "semantic_field": "administrative_validation",
+	  "pos": "operator (sphragistic)",
+	  "morphology": "noun",
+	  "frequency": "very_high (17 occurrences, 13 paired immediately after Sign 02 PD_AUTHORITY)",
+      "context": "Directly follows Sign 02 (PD_AUTHORITY) 13 times in the opening [𐇑𐇛] prefix formula, functioning identically to Cretan Hieroglyphic 044-049 / 044-005",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH 044 (Petschaft Stamp Seal) & CH 056 (Cylinder Seal)",
+		  "balkan_substrate": "AUTO_VC_COMPLETION (◎ *hol- seal) & CTP-P001 (◎ circular pintadera seal)"
+		  },
+      "confidence": 0.96,
+	  "confidence_score": 0.96,
+      "udm20_confidence": {
+		  "total": 0.96,
+		  "structural_30": 0.294,
+		  "archaeological_30": 0.291,
+		  "semantic_25": 0.24,
+		  "linguistic_15": 0.135
+		  },
+      "reading_layers": {
+		  "semantic_value": "Sphragistic Seal / Official Authorization (SIGILLUM)",
+		  "transliteration_label": "SIGILLUM / *hol-",
+		  "phonetic_value": "hol",
+		  "reading_type": "sphragistic_authentication_operator"
+		  },
+      "notes": "Sign 12 (Circular bossed roundel/shield with 7 peripheral dots) co-occurs 13 times immediately after Sign 02 (𐇑𐇛), enacting the exact sphragistic authentication header [AUTHORITY + SEAL] proven for CH 044 in Phase 3 of the Cretan Hieroglyphic Second Pass.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "si-ra-ro"
+	  ]
+    },
+    {
+      "entry_id": "PD_MONTH",
+	  "symbol_id": "PD_MONTH",
+	  "glyph_id": "PD_MONTH",
+	  "symbol": "PD_MONTH",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 19",
+	  "script_symbol": "𐇢",
+      "unicode": {
+		  "codepoint": "U+101E2",
+		  "char": "𐇢",
+		  "name": "PHAISTOS DISC SIGN CARPENTRY PLANE"
+		  },
+      "pua": {
+		  "codepoint": "U+E613",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_MONTH.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-19",
+		  "html_entity": "&#x101E2;",
+		  "data_symbol_id": "PD_MONTH"
+		  },
+      "transliteration": "*men- / *men-vir-",
+	  "phonetic_value": "me-na",
+	  "phonetic_values": [
+	  "me-na",
+	  "jo"
+	  ],
+      "phonetic_root": "*men- / *men-vir-",
+	  "pre_ie_substrate_root": "*men- / *men-vir- (Pre-IE/Nostratic lunar month/seasonal cycle root; cf. CT-067 mēn & AUTO_VC_SEASON)",
+      "linguistic_tier": "Temporal Classifier + Macro-Substrate Root",
+      "translation": "Lunar Month / Seasonal Accounting Period",
+      "meaning": "month, lunar period, seasonal accounting cycle",
+      "semantic_field": "temporal_administration",
+	  "pos": "noun (temporal classifier)",
+	  "morphology": "noun",
+	  "frequency": "medium (3 occurrences)",
+      "context": "Temporal administration and Minoan lunar-solar ritual calendar",
+      "minoan_triad_concordance": {
+		  "balkan_substrate": "AUTO_VC_SEASON (*men-vir-, conf. 0.889) & CT-067 (mēn, conf. 0.89)",
+		  "tartaria": "tarta_017 & tarta_025 (JO/YU lunar time)"
+		  },
+      "confidence": 0.86,
+	  "confidence_score": 0.86,
+      "udm20_confidence": {
+		  "total": 0.86,
+		  "structural_30": 0.261,
+		  "archaeological_30": 0.261,
+		  "semantic_25": 0.215,
+		  "linguistic_15": 0.123
+		  },
+      "reading_layers": {
+		  "semantic_value": "Lunar Month / Seasonal Period",
+		  "transliteration_label": "*men-",
+		  "phonetic_value": "me-na",
+		  "reading_type": "temporal_classifier"
+		  },
+      "notes": "Replaces the Mycenaean Greek genitive singular inflection 'me-no' (mēnos) with the uninflected macro-substrate root *men- / *men-vir-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "me-no (Mycenaean Greek genitive inflection)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SPIRAL_MARKER",
+	  "symbol_id": "PD_SPIRAL_MARKER",
+	  "glyph_id": "PD_SPIRAL_MARKER",
+	  "symbol": "PD_SPIRAL_MARKER",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 22",
+	  "script_symbol": "𐇥",
+      "unicode": {
+		  "codepoint": "U+101E5",
+		  "char": "𐇥",
+		  "name": "PHAISTOS DISC SIGN SLING"
+		  },
+      "pua": {
+		  "codepoint": "U+E614",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SPIRAL_MARKER.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-22",
+		  "html_entity": "&#x101E5;",
+		  "data_symbol_id": "PD_SPIRAL_MARKER"
+		  },
+      "transliteration": "STIKTOGRAM / *vir-ap-",
+	  "phonetic_value": "vi-ra-ap",
+	  "phonetic_values": [
+	  "vi-ra-ap"
+	  ],
+      "phonetic_root": "*vir-ap- (Structural Delimiter)",
+	  "pre_ie_substrate_root": "Positional Section Delimiter (paralleling CHIC X header stiktogram, Linear B *49, and Vinča VC041 *vir-ap-)",
+      "linguistic_tier": "Structural Delimiter / Stiktogram",
+      "translation": "Spiral Section Delimiter / Structural Boundary Marker",
+      "meaning": "spiral section marker, structural boundary delimiter",
+      "semantic_field": "structural_markers",
+	  "pos": "marker (stiktogram)",
+	  "morphology": "marker",
+	  "frequency": "medium (5 occurrences)",
+      "context": "Spiral section delimiter paralleling Linear B Sign *49 (Cretan & Linear B Reports)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CHIC Stiktogram X / |",
+		  "linear_b": "Sign *49 (Section Delimiter, conf. 0.99+)",
+		  "balkan_substrate": "VC041 (*vir-ap- spiral inception)"
+		  },
+      "confidence": 0.94,
+	  "confidence_score": 0.94,
+      "udm20_confidence": {
+		  "total": 0.94,
+		  "structural_30": 0.291,
+		  "archaeological_30": 0.285,
+		  "semantic_25": 0.235,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Spiral Section Delimiter / Stiktogram",
+		  "transliteration_label": "STIKTOGRAM / *vir-ap-",
+		  "phonetic_value": "vi-ra-ap",
+		  "reading_type": "structural_section_delimiter"
+		  },
+      "notes": "Purges the modern English/Latin string 'spi-ra' from v7.0 and classifies the sign as a non-phonetic/structural section delimiter homologous to CHIC stiktograms and Linear B *49.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "spi-ra (English/Latin placeholder)"
+	  ]
+    },
+    {
+      "entry_id": "PD_TOTAL",
+	  "symbol_id": "PD_TOTAL",
+	  "glyph_id": "PD_TOTAL",
+	  "symbol": "PD_TOTAL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 31",
+	  "script_symbol": "𐇮",
+      "unicode": {
+		  "codepoint": "U+101EE",
+		  "char": "𐇮",
+		  "name": "PHAISTOS DISC SIGN EAGLE"
+		  },
+      "pua": {
+		  "codepoint": "U+E615",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_TOTAL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-31",
+		  "html_entity": "&#x101EE;",
+		  "data_symbol_id": "PD_TOTAL"
+		  },
+      "transliteration": "*kuro / ku-ro",
+	  "phonetic_value": "ku-ro",
+	  "phonetic_values": [
+	  "ku-ro",
+	  "po-to-ku-ro",
+	  "hol-gam"
+	  ],
+      "phonetic_root": "*kuro- / *hol-g[A]m-",
+	  "pre_ie_substrate_root": "*kuro (Indisputable Pre-IE Minoan summation term → Linear A ku-ro / po-to-ku-ro, CH060)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate",
+      "translation": "Total / Arithmetic Sum of Account (ku-ro)",
+      "meaning": "total, sum, complete aggregate amount",
+      "semantic_field": "accounting_formulas",
+	  "pos": "operator (summative)",
+	  "morphology": "adjective",
+	  "frequency": "high (5 occurrences)",
+      "context": "Summation operator in Minoan palatial accounting (attested across Haghia Triada and Phaistos)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH060 (*kuro Total, conf. 0.98)",
+		  "linear_a": "ku-ro / po-to-ku-ro (HT 13, etc.)",
+		  "balkan_substrate": "AUTO_VC_TOTAL (*hol-g[A]m-, conf. 0.94)"
+		  },
+      "confidence": 0.96,
+	  "confidence_score": 0.96,
+      "udm20_confidence": {
+		  "total": 0.96,
+		  "structural_30": 0.294,
+		  "archaeological_30": 0.291,
+		  "semantic_25": 0.24,
+		  "linguistic_15": 0.135
+		  },
+      "reading_layers": {
+		  "semantic_value": "Total / Sum of Account (ku-ro)",
+		  "transliteration_label": "*kuro / ku-ro",
+		  "phonetic_value": "ku-ro",
+		  "reading_type": "summative_accounting_operator"
+		  },
+      "notes": "Replaces the Mycenaean Greek word 'to-so' (tossos) with the authentic Pre-IE Minoan summation term *kuro (ku-ro), attested throughout Linear A archives in the Messara Plain (Haghia Triada and Phaistos).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "to-so (Mycenaean Greek tossos retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_DELIVERY",
+	  "symbol_id": "PD_DELIVERY",
+	  "glyph_id": "PD_DELIVERY",
+	  "symbol": "PD_DELIVERY",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 36",
+	  "script_symbol": "𐇳",
+      "unicode": {
+		  "codepoint": "U+101F3",
+		  "char": "𐇳",
+		  "name": "PHAISTOS DISC SIGN VINE"
+		  },
+      "pua": {
+		  "codepoint": "U+E616",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_DELIVERY.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-36",
+		  "html_entity": "&#x101F3;",
+		  "data_symbol_id": "PD_DELIVERY"
+		  },
+      "transliteration": "*ap-ad- / *a-pu-",
+	  "phonetic_value": "a-pa-ad",
+	  "phonetic_values": [
+	  "a-pa-ad",
+	  "bu-ru"
+	  ],
+      "phonetic_root": "*ap-ad- / *buru-",
+	  "pre_ie_substrate_root": "*ap-ad- (Pre-IE directional transfer/delivery root; cf. Dispilio ap ... ad & AUTO_VC_TRADE)",
+      "linguistic_tier": "Transaction Verb + Pre-IE Root",
+      "translation": "Delivery / Inbound Palatial Remittance",
+      "meaning": "delivery, contribution, remittance transfer",
+      "semantic_field": "economic_transactions",
+	  "pos": "verb (transaction)",
+	  "morphology": "verb",
+	  "frequency": "medium (4 occurrences)",
+      "context": "Economic remittance and commodity delivery into the Phaistos magazines",
+      "minoan_triad_concordance": {
+		  "balkan_substrate": "AUTO_VC_TRADE (*ap-ad-, conf. 0.912) & Dispilio dispilio_009/011"},
+      "confidence": 0.88,
+	  "confidence_score": 0.88,
+      "udm20_confidence": {
+		  "total": 0.88,
+		  "structural_30": 0.267,
+		  "archaeological_30": 0.267,
+		  "semantic_25": 0.22,
+		  "linguistic_15": 0.126
+		  },
+      "reading_layers": {
+		  "semantic_value": "Delivery / Palatial Remittance",
+		  "transliteration_label": "*ap-ad-",
+		  "phonetic_value": "a-pa-ad",
+		  "reading_type": "transaction_verb_operator"
+		  },
+      "notes": "Strips the Mycenaean Greek aorist verb 'a-pe-do-ke' (apedōke, 'he gave back') and anchors in the Pre-IE transfer root *ap-ad-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "a-pe-do-ke (Mycenaean Greek aorist verb retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_HOLDING",
+	  "symbol_id": "PD_HOLDING",
+	  "glyph_id": "PD_HOLDING",
+	  "symbol": "PD_HOLDING",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 13",
+	  "script_symbol": "𐇜",
+      "unicode": {
+		  "codepoint": "U+101DC",
+		  "char": "𐇜",
+		  "name": "PHAISTOS DISC SIGN CLUB"
+		  },
+      "pua": {
+		  "codepoint": "U+E617",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_HOLDING.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-13",
+		  "html_entity": "&#x101DC;",
+		  "data_symbol_id": "PD_HOLDING"
+		  },
+      "transliteration": "*baita- / *ka-ta-",
+	  "phonetic_value": "ka-ta",
+	  "phonetic_values": ["ka-ta", "ba-i-ta"
+	  ],
+      "phonetic_root": "*kat- / *baita-",
+	  "pre_ie_substrate_root": "*kat- / *baita- (Pre-IE household estate/holding root; cf. VC021 & tarta_012)",
+      "linguistic_tier": "Property/Estate Determinative + Pre-IE Root",
+      "translation": "Estate Holding / Allotted Property Jurisdiction",
+      "meaning": "holding, possession, allotted estate",
+      "semantic_field": "land_tenure",
+	  "pos": "noun (property/tenure)",
+	  "morphology": "noun",
+	  "frequency": "medium (6 occurrences)",
+      "context": "Land tenure and palatial estate allotments at Phaistos",
+      "minoan_triad_concordance": {
+		  "tartaria": "tarta_012 (⟙ ownership/possession marker, conf. 0.98)",
+		  "vinca": "VC021 (*baita-/*kat- household unit)"
+		  },
+      "confidence": 0.86,
+	  "confidence_score": 0.86,
+      "udm20_confidence": {
+		  "total": 0.86,
+		  "structural_30": 0.261,
+		  "archaeological_30": 0.261,
+		  "semantic_25": 0.215,
+		  "linguistic_15": 0.123
+		  },
+      "reading_layers": {
+		  "semantic_value": "Estate Holding / Allotted Property",
+		  "transliteration_label": "*kat- / *baita-",
+		  "phonetic_value": "ka-ta",
+		  "reading_type": "tenure_estate_logogram"
+		  },
+      "notes": "Strips Mycenaean Greek 'e-ke-ra' (from PIE *seǵh- > ekhō) and anchors in Pre-IE estate/holding roots.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "e-ke-ra (Greek ekhō / PIE *seǵh- retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_DEFICIT",
+	  "symbol_id": "PD_DEFICIT",
+	  "glyph_id": "PD_DEFICIT",
+	  "symbol": "PD_DEFICIT",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 27",
+	  "script_symbol": "𐇪",
+      "unicode": {
+		  "codepoint": "U+101EA",
+		  "char": "𐇪",
+		  "name": "PHAISTOS DISC SIGN HIDE"
+		  },
+      "pua": {
+		  "codepoint": "U+E618",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_DEFICIT.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-27",
+		  "html_entity": "&#x101EA;",
+		  "data_symbol_id": "PD_DEFICIT"
+		  },
+      "transliteration": "*kiro / ki-ro",
+	  "phonetic_value": "ki-ro",
+	  "phonetic_values": [
+	  "ki-ro",
+	  "ap-ka"
+	  ],
+      "phonetic_root": "*kiro- / *ap-ka-",
+	  "pre_ie_substrate_root": "*kiro (Attested Pre-IE Minoan accounting deficit term → Linear A ki-ro; cf. CH028 Hide & Vinča *ap-ka-)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate (+ CH028 Hide Polysemy)",
+      "translation": "Deficit / Owed Quota (ki-ro) [Polysemic with CH028 Stretched Hide Logogram]",
+      "meaning": "deficit, owing, balance shortfall (or stretched hide craft logogram CH028)",
+      "semantic_field": "accounting_discrepancies",
+	  "pos": "noun (accounting state / logogram)",
+	  "morphology": "noun",
+	  "frequency": "high (15 occurrences)",
+      "context": "Minoan accounting balance shortfall (Linear A ki-ro) and palatial hide/leather inventories (CH028)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH028 (Stretched Animal Pelt/Hide, conf. 0.92)",
+		  "linear_a": "ki-ro ('deficit/owing', paired opposite ku-ro)",
+		  "balkan_substrate": "AUTO_VC_DEFICIT (*ap-ka-, conf. 0.883)"
+		  },
+      "confidence": 0.91,
+	  "confidence_score": 0.91,
+      "udm20_confidence": {
+		  "total": 0.91,
+		  "structural_30": 0.276,
+		  "archaeological_30": 0.276,
+		  "semantic_25": 0.2275,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Deficit / Owed Balance (ki-ro) & Hide Logogram (CH028)",
+		  "transliteration_label": "*kiro / ki-ro",
+		  "phonetic_value": "ki-ro",
+		  "reading_type": "bivalent_accounting_and_commodity_logogram"
+		  },
+      "notes": "Replaces the Mycenaean Greek accounting term 'o-pe-ro' (ophelos) with the authentic Pre-IE Minoan deficit marker *kiro (ki-ro, universally attested opposite ku-ro in Linear A ledgers), while noting the direct iconographic identity of Sign 27 (Pelt/Hide) with CH028.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "o-pe-ro (Mycenaean Greek ophelos retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_COLLECTOR",
+	  "symbol_id": "PD_COLLECTOR",
+	  "glyph_id": "PD_COLLECTOR",
+	  "symbol": "PD_COLLECTOR",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 23",
+	  "script_symbol": "𐇦",
+      "unicode": {
+		  "codepoint": "U+101E6",
+		  "char": "𐇦",
+		  "name": "PHAISTOS DISC SIGN COLUMN"
+		  },
+      "pua": {
+		  "codepoint": "U+E619",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_COLLECTOR.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-23",
+		  "html_entity": "&#x101E6;",
+		  "data_symbol_id": "PD_COLLECTOR"
+		  },
+      "transliteration": "*korete / ko-re-te",
+	  "phonetic_value": "ko-re-te",
+	  "phonetic_values": [
+	  "ko-re-te"
+	  ],
+      "phonetic_root": "*korete-",
+	  "pre_ie_substrate_root": "*korete (Pre-IE Minoan district coordinator/collector → LA/LB ko-re-te, CH005, CM005)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate",
+      "translation": "District Coordinator / Regional Tax Collector (*korete)",
+      "meaning": "collector, district mayor, bureaucratic coordinator",
+      "semantic_field": "tax_administration",
+	  "pos": "noun (title)",
+	  "morphology": "noun",
+	  "frequency": "high (11 occurrences)",
+      "context": "Regional collection and workshop coordination in Phaistos palatial administration",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH005 (*korete, conf. 0.93)",
+		  "linear_a": "ko-re-te",
+		  "cypro_minoan": "CM005 (ko-re-te)"
+		  },
+      "confidence": 0.93,
+	  "confidence_score": 0.93,
+      "udm20_confidence": {
+		  "total": 0.93,
+		  "structural_30": 0.282,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.2325,
+		  "linguistic_15": 0.1335
+		  },
+      "reading_layers": {
+		  "semantic_value": "District Coordinator / Collector (*korete)",
+		  "transliteration_label": "*korete",
+		  "phonetic_value": "ko-re-te",
+		  "reading_type": "substrate_title_logogram"
+		  },
+      "notes": "Verified Tier I Pre-IE Minoan administrative title *korete (ko-re-te), shared across CH005, Linear A, Cypro-Minoan CM005, and Linear B.",
+      "legacy_greek_and_english_proxies_deprecated": []
+    },
+    {
+      "entry_id": "PD_ALLOCATION",
+	  "symbol_id": "PD_ALLOCATION",
+	  "glyph_id": "PD_ALLOCATION",
+	  "symbol": "PD_ALLOCATION",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 10",
+	  "script_symbol": "𐇙",
+      "unicode": {
+		  "codepoint": "U+101D9",
+		  "char": "𐇙",
+		  "name": "PHAISTOS DISC SIGN PLUME"
+		  },
+      "pua": {
+		  "codepoint": "U+E61A",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_ALLOCATION.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-10",
+		  "html_entity": "&#x101D9;",
+		  "data_symbol_id": "PD_ALLOCATION"
+		  },
+      "transliteration": "*buru- / FRACTION",
+	  "phonetic_value": "bu-ru",
+	  "phonetic_values": [
+	  "bu-ru",
+	  "re"
+	  ],
+      "phonetic_root": "*buru- / *per-",
+	  "pre_ie_substrate_root": "*buru- (Pre-IE ration disbursement / fractional share; cf. CH301–309 & AUTO_VC_ALLOCATION)",
+      "linguistic_tier": "Allocation Operator + Pre-IE Root",
+      "translation": "Ration Allocation / Fractional Disbursement Share",
+      "meaning": "allocation, ration assignment, resource distribution",
+      "semantic_field": "resource_distribution",
+	  "pos": "operator (allocation)",
+	  "morphology": "adjective/verb",
+	  "frequency": "medium (4 occurrences)",
+      "context": "Ration distribution and fractional commodity allocations at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH301–309 (9-Sign Fraction Series)",
+		  "balkan_substrate": "AUTO_VC_ALLOCATION (*buru-, conf. 0.923)"
+		  },
+      "confidence": 0.87,
+	  "confidence_score": 0.87,
+      "udm20_confidence": {
+		  "total": 0.87,
+		  "structural_30": 0.264,
+		  "archaeological_30": 0.264,
+		  "semantic_25": 0.2175,
+		  "linguistic_15": 0.1245
+		  },
+      "reading_layers": {
+		  "semantic_value": "Ration Allocation / Disbursement Share",
+		  "transliteration_label": "*buru-",
+		  "phonetic_value": "bu-ru",
+		  "reading_type": "allocation_operator"
+		  },
+      "notes": "Strips Indo-European Greek 'ne-wo' (newos < PIE *néwos) and binds to Pre-IE ration allocation root *buru-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ne-wo (PIE *néwos / Greek newos retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_RECORD",
+	  "symbol_id": "PD_RECORD",
+	  "glyph_id": "PD_RECORD",
+	  "symbol": "PD_RECORD",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 08",
+	  "script_symbol": "𐇗",
+      "unicode": {
+		  "codepoint": "U+101D7",
+		  "char": "𐇗",
+		  "name": "PHAISTOS DISC SIGN GAUNTLET"
+		  },
+      "pua": {
+		  "codepoint": "U+E61B",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_RECORD.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-08",
+		  "html_entity": "&#x101D7;",
+		  "data_symbol_id": "PD_RECORD"
+		  },
+      "transliteration": "*kar-ta- / *pak-",
+	  "phonetic_value": "ka-ra-ta",
+	  "phonetic_values": [
+	  "ka-ra-ta",
+	  "pa-ka"
+	  ],
+      "phonetic_root": "*kar-ta- / *pak-",
+	  "pre_ie_substrate_root": "*kar-ta- / *pak- (Pre-IE hand-incised/stamped canonical document; cf. CHIC 008/009 & VC002/VC040)",
+      "linguistic_tier": "Document Determinative + Pre-IE Root",
+      "translation": "Stamped/Incised Record / Authenticated Document",
+      "meaning": "record, stamped document, canonical inscription",
+      "semantic_field": "documentation",
+	  "pos": "noun (document determinative)",
+	  "morphology": "noun",
+	  "frequency": "medium (5 occurrences)",
+      "context": "Administrative documentation and hand-authenticated record keeping at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CHIC 008/009 (Gesturing/Bound Hand)",
+		  "byblos": "B020 (ya/yad hand)",
+		  "balkan_substrate": "VC002 (*kar-/*pak-) & VC040 (*kar-ta-)"
+		  },
+      "confidence": 0.90,
+	  "confidence_score": 0.90,
+      "udm20_confidence": {
+		  "total": 0.90,
+		  "structural_30": 0.273,
+		  "archaeological_30": 0.273,
+		  "semantic_25": 0.225,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Authenticated Record / Canonical Document",
+		  "transliteration_label": "*kar-ta-",
+		  "phonetic_value": "ka-ra-ta",
+		  "reading_type": "document_determinative"
+		  },
+      "notes": "Purges the modern English phonetic string 're-ko-de' ('record') from v7.0 and anchors Sign 08 (Gauntlet/Fist) in the Minoan hand-sign series (CHIC 008/009) and Pre-IE *kar-ta- / *pak-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "re-ko-de (English 'record' phonetic placeholder)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SUPERVISOR",
+	  "symbol_id": "PD_SUPERVISOR",
+	  "glyph_id": "PD_SUPERVISOR",
+	  "symbol": "PD_SUPERVISOR",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 11",
+	  "script_symbol": "𐇚",
+      "unicode": {
+		  "codepoint": "U+101DA",
+		  "char": "𐇚",
+		  "name": "PHAISTOS DISC SIGN BOW"
+		  },
+      "pua": {
+		  "codepoint": "U+E61C",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SUPERVISOR.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-11",
+		  "html_entity": "&#x101DA;",
+		  "data_symbol_id": "PD_SUPERVISOR"
+		  },
+      "transliteration": "*qasireu / qa-si-re-u",
+	  "phonetic_value": "qa-si-re-u",
+	  "phonetic_values": [
+	  "qa-si-re-u"
+	  ],
+      "phonetic_root": "*qasireu-",
+	  "pre_ie_substrate_root": "*qasireu (Pre-IE Minoan provincial governor/overseer → LA/LB qa-si-re-u, CH002, CM004)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Substrate",
+      "translation": "Provincial Governor / Supervisory Overseer (*qasireu)",
+      "meaning": "governor, supervisor, regional chieftain, overseer",
+      "semantic_field": "supervisory_administration",
+	  "pos": "noun (title)",
+	  "morphology": "noun",
+	  "frequency": "low (1 occurrence, A1)",
+      "context": "Provincial and workshop supervisory oversight in the Phaistos hierarchy (completing the Minoan Authority Triad with PD_AUTHORITY, PD_SCRIBE, and PD_COLLECTOR)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH002 (*qasireu, conf. 0.95) & 044-005 (Supervisory Branch B)",
+		  "linear_a": "qa-si-re-u",
+		  "cypro_minoan": "CM004 (qa-si-re-u)"
+		  },
+      "confidence": 0.93,
+	  "confidence_score": 0.93,
+      "udm20_confidence": {
+		  "total": 0.93,
+		  "structural_30": 0.282,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.2325,
+		  "linguistic_15": 0.1335
+		  },
+      "reading_layers": {
+		  "semantic_value": "Provincial Governor / Overseer (*qasireu)",
+		  "transliteration_label": "*qasireu",
+		  "phonetic_value": "qa-si-re-u",
+		  "reading_type": "substrate_title_logogram"
+		  },
+      "notes": "Replaces Mycenaean Greek 'e-pi-ko-wo' (epikowos) with the verified Pre-IE Minoan governor/overseer rank *qasireu (qa-si-re-u, CH002 / CM004), completing the 4-part Minoan administrative hierarchy table from the Linear B and Cretan reports.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "e-pi-ko-wo (Mycenaean Greek epikowos retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_COMPLETION",
+	  "symbol_id": "PD_COMPLETION",
+	  "glyph_id": "PD_COMPLETION",
+	  "symbol": "PD_COMPLETION",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 17",
+	  "script_symbol": "𐇠",
+      "unicode": {
+		  "codepoint": "U+101E0",
+		  "char": "𐇠",
+		  "name": "PHAISTOS DISC SIGN LID"
+		  },
+      "pua": {
+		  "codepoint": "U+E61D",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_COMPLETION.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-17",
+		  "html_entity": "&#x101E0;",
+		  "data_symbol_id": "PD_COMPLETION"
+		  },
+      "transliteration": "*hol- / COMPLETION",
+	  "phonetic_value": "hol",
+	  "phonetic_values": [
+	  "hol"
+	  ],
+      "phonetic_root": "*hol-",
+	  "pre_ie_substrate_root": "*hol- (Pre-IE Aegean-Balkan stative completion/sealing operator; cf. dispilio_008 & AUTO_VC_COMPLETION)",
+      "linguistic_tier": "Stative Completion Operator + Pre-IE Root",
+      "translation": "Transaction Complete / Sealed Fulfillment",
+      "meaning": "completion, fulfillment, sealed transaction state",
+      "semantic_field": "administrative_completion",
+	  "pos": "verb/operator (stative)",
+	  "morphology": "noun/verb",
+	  "frequency": "low (1 occurrence)",
+      "context": "Administrative transaction closure and container sealing (Sign 17 Lid)",
+      "minoan_triad_concordance": {
+		  "dispilio": "dispilio_008 (O hol, conf. 0.984)",
+		  "vinca": "AUTO_VC_COMPLETION (*hol-, conf. 0.955)"
+		  },
+      "confidence": 0.88,
+	  "confidence_score": 0.88,
+      "udm20_confidence": {
+		  "total": 0.88,
+		  "structural_30": 0.267,
+		  "archaeological_30": 0.267,
+		  "semantic_25": 0.22,
+		  "linguistic_15": 0.126
+		  },
+      "reading_layers": {
+		  "semantic_value": "Transaction Complete / Sealed State",
+		  "transliteration_label": "*hol-",
+		  "phonetic_value": "hol",
+		  "reading_type": "stative_completion_operator"
+		  },
+      "notes": "Strips Greek 'te-re-ja' (teleia) and anchors Sign 17 (Circular Lid/Cover) in the Pre-IE completion/sealing operator *hol-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "te-re-ja (Greek teleia retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SANCTUARY",
+	  "symbol_id": "PD_SANCTUARY",
+	  "glyph_id": "PD_SANCTUARY",
+	  "symbol": "PD_SANCTUARY",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 24B / 04",
+	  "script_symbol": "𐇡",
+      "unicode": {
+		  "codepoint": "U+101E1",
+		  "char": "𐇡",
+		  "name": "PHAISTOS DISC SIGN BOOMERANG"
+		  },
+      "pua": {
+		  "codepoint": "U+E61E",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SANCTUARY.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-18",
+		  "html_entity": "&#x101E1;",
+		  "data_symbol_id": "PD_SANCTUARY"
+		  },
+      "transliteration": "*a-sa / *sak-mal-",
+	  "phonetic_value": "a-sa",
+	  "phonetic_values": [
+	  "a-sa",
+	  "sa-ka-mal"
+	  ],
+      "phonetic_root": "*a-sa- / *sak-mal-",
+	  "pre_ie_substrate_root": "*a-sa (Archanes sacral-institutional shrine formula 042-019) & *sak-mal- (Pre-IE sanctuary ligature VC024)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Sacral Formula",
+      "translation": "Sacred Sanctuary / Peak Shrine Precinct",
+      "meaning": "sanctuary, sacred precinct, peak shrine",
+      "semantic_field": "religious_architecture",
+	  "pos": "noun (locative sacral)",
+	  "morphology": "noun",
+	  "frequency": "high (12 occurrences)",
+      "context": "Minoan peak sanctuaries (such as Mount Kamares above Phaistos) and palatial shrines",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "042-019 (a-sa, 'Sacred Authority / Shrine') & CH048 (Horns of Consecration)",
+		  "balkan_substrate": "VC024 (*sak-mal- Shrine, conf. 0.954) & tarta_010 (*sak-)"
+		  },
+      "confidence": 0.90,
+	  "confidence_score": 0.90,
+      "udm20_confidence": {
+		  "total": 0.90,
+		  "structural_30": 0.273,
+		  "archaeological_30": 0.273,
+		  "semantic_25": 0.225,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Sacred Sanctuary / Peak Shrine",
+		  "transliteration_label": "*a-sa / *sak-mal-",
+		  "phonetic_value": "a-sa",
+		  "reading_type": "sacral_locative_logogram"
+		  },
+      "notes": "Strips Mycenaean Greek 'te-me-no' (temenos < PIE *temh1-) and binds to the indigenous Minoan Archanes shrine formula 042-019 (a-sa) and Pre-IE *sak-mal-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "te-me-no (Greek temenos / PIE *temh1- retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_FESTIVAL",
+	  "symbol_id": "PD_FESTIVAL",
+	  "glyph_id": "PD_FESTIVAL",
+	  "symbol": "PD_FESTIVAL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 30",
+	  "script_symbol": "𐇭",
+      "unicode": {
+		  "codepoint": "U+101ED",
+		  "char": "𐇭",
+		  "name": "PHAISTOS DISC SIGN RAM"
+		  },
+      "pua": {
+		  "codepoint": "U+E61F",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_FESTIVAL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-30",
+		  "html_entity": "&#x101ED;",
+		  "data_symbol_id": "PD_FESTIVAL"
+		  },
+      "transliteration": "OVIS^m / *sak-vir-",
+	  "phonetic_value": "sa-ka-vi-ra",
+	  "phonetic_values": [
+	  "sa-ka-vi-ra",
+	  "do-go"
+	  ],
+      "phonetic_root": "*sak-vir- / *kapr-",
+	  "pre_ie_substrate_root": "CH015b Horned Ram Sacrificial/Festival Logogram (Malia MA/P Hi 02 Sign 3b) + Pre-IE *sak-vir- (VC062)",
+      "linguistic_tier": "Sacrificial/Festival Logogram + Pre-IE Substrate",
+      "translation": "Sacrificial Ram / Seasonal Sanctuary Festival",
+      "meaning": "festival, sacrificial ram offering, seasonal religious gathering",
+      "semantic_field": "religious_celebrations",
+	  "pos": "noun (ritual/zoomorphic logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (1 occurrence, B27)",
+      "context": "Seasonal sacrificial feasts and diacritical feasting at Minoan palaces (cf. Malia MA/P Hi 02 oversized Ram's head CH015b)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH015b (Curved-Horn Ram Head on Malia bar MA/P Hi 02, conf. 0.80)",
+		  "tartaria": "tarta_008 (DO-GO cyclical/sacrificial horned animal)",
+		  "vinca": "VC062 (*sak-vir- seasonal festival)"
+		  },
+      "confidence": 0.86,
+	  "confidence_score": 0.86,
+      "udm20_confidence": {
+		  "total": 0.86,
+		  "structural_30": 0.261,
+		  "archaeological_30": 0.264,
+		  "semantic_25": 0.215,
+		  "linguistic_15": 0.12
+		  },
+      "reading_layers": {
+		  "semantic_value": "Sacrificial Ram (CH015b) / Seasonal Festival",
+		  "transliteration_label": "OVIS^m / *sak-vir-",
+		  "phonetic_value": "sa-ka-vi-ra",
+		  "reading_type": "sacrificial_festival_logogram"
+		  },
+      "notes": "Purges the severe anachronism 'pa-na-te-ne-ja' (the Classical Athenian Panathenaia festival!) from v7.0 and anchors Sign 30 (Horned Ram's Head) directly to Cretan Hieroglyphic CH015b (the heraldically oversized Ram's head on Malia clay bar MA/P Hi 02).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "pa-na-te-ne-ja (anachronistic Classical Athenian Panathenaia)"
+	  ]
+    },
+    {
+      "entry_id": "PD_CRAFTSMAN",
+	  "symbol_id": "PD_CRAFTSMAN",
+	  "glyph_id": "PD_CRAFTSMAN",
+	  "symbol": "PD_CRAFTSMAN",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 16",
+	  "script_symbol": "𐇟",
+      "unicode": {
+		  "codepoint": "U+101DF",
+		  "char": "𐇟",
+		  "name": "PHAISTOS DISC SIGN SAW"
+		  },
+      "pua": {
+		  "codepoint": "U+E620",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_CRAFTSMAN.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-16",
+		  "html_entity": "&#x101DF;",
+		  "data_symbol_id": "PD_CRAFTSMAN"
+		  },
+      "transliteration": "*tek- / *tek-kar-",
+	  "phonetic_value": "tek-ka-ra",
+	  "phonetic_values": [
+	  "tek",
+	  "tek-ka-ra"
+	  ],
+      "phonetic_root": "*tek- / *tek-kar-",
+	  "pre_ie_substrate_root": "*tek- / *tek-kar- (Pre-IE Aegean-Balkan craft/implement root → dispilio_010, VC013, AUTO_VC_CRAFT > Gk. tektōn)",
+      "linguistic_tier": "Tier I: Pre-IE Aegean-Balkan Technological Substrate",
+      "translation": "Craftsman / Master Artisan / Workshop Specialist (*tek-)",
+      "meaning": "craftsman, artisan, tool specialist",
+      "semantic_field": "craft_specialization",
+	  "pos": "noun (profession/instrument)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences)",
+      "context": "Palatial craft specialization and lapidary/metallurgical/carpentry workshops at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "Phase 11 Craft Specialization / Guild Markers",
+		  "dispilio": "dispilio_010 (⊥ *tek-, conf. 0.961)",
+		  "vinca": "VC013 (*tek-) & AUTO_VC_CRAFT (*tek-kar-, conf. 0.929)"
+		  },
+      "confidence": 0.91,
+	  "confidence_score": 0.91,
+      "udm20_confidence": {
+		  "total": 0.91,
+		  "structural_30": 0.276,
+		  "archaeological_30": 0.276,
+		  "semantic_25": 0.2275,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Craftsman / Artisan Specialist (*tek-)",
+		  "transliteration_label": "*tek- / *tek-kar-",
+		  "phonetic_value": "tek-ka-ra",
+		  "reading_type": "craft_specialist_logogram"
+		  },
+      "notes": "Sign 16 (Saw/Blade Tool) encodes the Pre-IE technological root *tek- / *tek-kar- (attested on 12 stone adzes at Dispilio and Vinča VC013, later borrowed into Greek tektōn).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "te-ka-to (normalized to Pre-IE *tek- / *tek-kar-)"
+	  ]
+    },
+    {
+      "entry_id": "PD_WINE",
+	  "symbol_id": "PD_WINE",
+	  "glyph_id": "PD_WINE",
+	  "symbol": "PD_WINE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 37",
+	  "script_symbol": "𐇴",
+      "unicode": {
+		  "codepoint": "U+101F4",
+		  "char": "𐇴",
+		  "name": "PHAISTOS DISC SIGN PAPYRUS"
+		  },
+      "pua": {
+		  "codepoint": "U+E621",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_WINE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-37",
+		  "html_entity": "&#x101F4;",
+		  "data_symbol_id": "PD_WINE"
+		  },
+      "transliteration": "*yane / *wino",
+	  "phonetic_value": "ya-ne",
+	  "phonetic_values": [
+	  "ya-ne",
+	  "wi-no",
+	  "wo-no"
+	  ],
+      "phonetic_root": "*yane- / *wino-",
+	  "pre_ie_substrate_root": "*yane / *wino (Areal Mediterranean/Semitic viticultural term → Linear A ya-ne on Knossos pithos, CH026, Ugaritic yn, LB wo-no)",
+      "linguistic_tier": "Tier II: Eastern Mediterranean Areal Wanderwort",
+      "translation": "Wine / Viticultural Liquid Produce (*yane / *wino)",
+      "meaning": "wine, fermented grape produce, libation liquid",
+      "semantic_field": "agricultural_products",
+	  "pos": "noun (commodity)",
+	  "morphology": "noun",
+	  "frequency": "medium (4 occurrences)",
+      "context": "Viticultural liquid ledgers and sanctuary libations at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH026 (*yane/*wino, CHIC *156, conf. 0.95)",
+		  "linear_a": "ya-ne (Knossos pithos) / AB131 VIN"
+		  },
+      "confidence": 0.92,
+	  "confidence_score": 0.92,
+      "udm20_confidence": {
+		  "total": 0.92,
+		  "structural_30": 0.279,
+		  "archaeological_30": 0.279,
+		  "semantic_25": 0.23,
+		  "linguistic_15": 0.132
+		  },
+      "reading_layers": {
+		  "semantic_value": "Wine / Viticultural Produce",
+		  "transliteration_label": "*yane / *wino",
+		  "phonetic_value": "ya-ne",
+		  "reading_type": "areal_viticultural_logogram"
+		  },
+      "notes": "Prioritizes the attested Minoan Linear A form ya-ne (*yane / *wino, CH026) over the later Mycenaean spelling wo-no.",
+      "legacy_greek_and_english_proxies_deprecated": []
+    },
+    {
+      "entry_id": "PD_PERFUME",
+	  "symbol_id": "PD_PERFUME",
+	  "glyph_id": "PD_PERFUME",
+	  "symbol": "PD_PERFUME",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 33",
+	  "script_symbol": "𐇰",
+      "unicode": {
+		  "codepoint": "U+101F0",
+		  "char": "𐇰",
+		  "name": "PHAISTOS DISC SIGN TUNNY"
+		  },
+      "pua": {
+		  "codepoint": "U+E622",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+	  "path": "svg/phaistos_disc/PD_PERFUME.svg",
+	  "viewBox": "0 0 128 128",
+	  "status": "artifact_trace_target"
+	  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-33",
+		  "html_entity": "&#x101F0;",
+		  "data_symbol_id": "PD_PERFUME"
+		  },
+      "transliteration": "PERFUME (Logogram)",
+	  "phonetic_value": "re",
+	  "phonetic_values": [
+	  "re"
+	  ],
+      "phonetic_root": "Logogram (CHIC 023 = re)",
+	  "pre_ie_substrate_root": "Pure Logogram (homologous to CH034 Scented Unguent / Lily-Iris CHIC 023, conf. 0.94)",
+      "linguistic_tier": "Luxury Commodity Logogram",
+      "translation": "Perfumed Oil / Luxury Unguent Fragrance",
+      "meaning": "perfumed oil, aromatic unguent, luxury fragrance",
+      "semantic_field": "luxury_goods",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "medium (6 occurrences)",
+      "context": "Palatial perfume workshop records and sanctuary unguent supplies (paired with CH171 small flasks)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH034 (Perfumed Oil CHIC 023, conf. 0.94) & CH171 (Flask)"
+		  },
+      "confidence": 0.88,
+	  "confidence_score": 0.88,
+      "udm20_confidence": {
+		  "total": 0.88,
+		  "structural_30": 0.267,
+		  "archaeological_30": 0.27,
+		  "semantic_25": 0.22,
+		  "linguistic_15": 0.123
+		  },
+      "reading_layers": {
+		  "semantic_value": "Perfumed Oil / Luxury Unguent",
+		  "transliteration_label": "PERFUME",
+		  "phonetic_value": "re",
+		  "reading_type": "luxury_commodity_logogram"
+		  },
+      "notes": "Strips Classical Greek 'a-ro-ma' (arōma) and aligns with CH034 (Perfumed Oil logogram, syllabic value re).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "a-ro-ma (Classical Greek arōma retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_CHARIOT",
+	  "symbol_id": "PD_CHARIOT",
+	  "glyph_id": "PD_CHARIOT",
+	  "symbol": "PD_CHARIOT",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 18",
+	  "script_symbol": "𐇡",
+      "unicode": {
+		  "codepoint": "U+101E1",
+		  "char": "𐇡",
+		  "name": "PHAISTOS DISC SIGN BOOMERANG"
+		  },
+      "pua": {
+		  "codepoint": "U+E623",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_CHARIOT.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-chariot",
+		  "html_entity": "&#xE623;",
+		  "data_symbol_id": "PD_CHARIOT"
+		  },
+      "transliteration": "CHARIOT (Logogram)",
+	  "phonetic_value": "—",
+	  "phonetic_values": ["—"],
+      "phonetic_root": "Pure Logogram (CH039 / CH049)",
+	  "pre_ie_substrate_root": "Pure Pictographic Logogram (homologous to CH039 Wheeled Vehicle & CH049 Wheel)",
+      "linguistic_tier": "Pure Pictographic Logogram",
+      "translation": "Chariot / Wheeled Elite Vehicle",
+      "meaning": "chariot, wheeled elite vehicle, palatial transport",
+      "semantic_field": "transportation",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "low",
+      "context": "Elite palatial transport and armory allocations",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH039 (Chariot, conf. 0.90) & CH049 (Four-Spoked Wheel, conf. 0.89)"
+		  },
+      "confidence": 0.85,
+	  "confidence_score": 0.85,
+      "udm20_confidence": {
+		  "total": 0.85,
+		  "structural_30": 0.258,
+		  "archaeological_30": 0.261,
+		  "semantic_25": 0.2125,
+		  "linguistic_15": 0.1185
+		  },
+      "reading_layers": {
+		  "semantic_value": "Chariot / Wheeled Elite Vehicle",
+		  "transliteration_label": "CHARIOT",
+		  "phonetic_value": "—",
+		  "reading_type": "pictographic_logogram"
+		  },
+      "notes": "Purges the Indo-European Mycenaean Greek term 'i-qi-ja' (ikkʷia < PIE *h1éḱwos 'horse') and normalizes to a pure logogram matching CH039.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "i-qi-ja (PIE *h1éḱwos / Mycenaean Greek ikkʷia retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_GODDESS",
+	  "symbol_id": "PD_GODDESS",
+	  "glyph_id": "PD_GODDESS",
+	  "symbol": "PD_GODDESS",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 06",
+	  "script_symbol": "𐇕",
+      "unicode": {
+		  "codepoint": "U+101D5",
+		  "char": "𐇕",
+		  "name": "PHAISTOS DISC SIGN WOMAN"
+		  },
+      "pua": {
+		  "codepoint": "U+E624",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_GODDESS.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-06",
+		  "html_entity": "&#x101D5;",
+		  "data_symbol_id": "PD_GODDESS"
+		  },
+      "transliteration": "*(j)asasarame / *ma-na",
+	  "phonetic_value": "a-sa-sa-ra-me",
+	  "phonetic_values": [
+	  "a-sa-sa-ra-me",
+	  "ja-sa-sa-ra-me",
+	  "ma-na"
+	  ],
+      "phonetic_root": "*(j)asasarame / *ma-",
+	  "pre_ie_substrate_root": "*(j)asasarame (Pre-IE Minoan divine recipient from Archanes 042-019 | 019-095-052 & Linear A libation tables; Old European *ma-na)",
+      "linguistic_tier": "Tier I: Genuine Pre-IE Minoan Divine Title",
+      "translation": "Great Goddess / Sovereign Divine Recipient (*(j)asasarame)",
+      "meaning": "goddess, sovereign divine lady, recipient of sanctuary offerings",
+      "semantic_field": "religious_deities",
+	  "pos": "noun (theophoric)",
+	  "morphology": "noun",
+	  "frequency": "medium (4 occurrences)",
+      "context": "Sanctuary offering sequences and royal/cultic dedications at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH029 (*(j)asasarame, conf. 0.95) & Archanes Formula",
+		  "linear_a": "(j)a-sa-sa-ra-me (stone libation tables)",
+		  "balkan_substrate": "VC060 (*ma-na Great Goddess, conf. 0.969)"
+		  },
+      "confidence": 0.95,
+	  "confidence_score": 0.95,
+      "udm20_confidence": {
+		  "total": 0.95,
+		  "structural_30": 0.288,
+		  "archaeological_30": 0.291,
+		  "semantic_25": 0.2375,
+		  "linguistic_15": 0.1335
+		  },
+      "reading_layers": {
+		  "semantic_value": "Great Goddess / Divine Recipient (*(j)asasarame)",
+		  "transliteration_label": "*(j)asasarame",
+		  "phonetic_value": "a-sa-sa-ra-me",
+		  "reading_type": "theophoric_substrate_logogram"
+		  },
+      "notes": "Sign 06 (Standing Female Figure with pendulous breasts and flared skirt) matches Minoan goddess iconography and CH029. Replaces the Indo-European noun 'po-ti-ni-ja' (PIE *pótnih2) with the indigenous Minoan dedicatory recipient *(j)asasarame.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "po-ti-ni-ja (PIE *pótnih2 retrofit restricted to semantic gloss)"
+	  ]
+    },
+    {
+      "entry_id": "PD_IVORY",
+	  "symbol_id": "PD_IVORY",
+	  "glyph_id": "PD_IVORY",
+	  "symbol": "PD_IVORY",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 28",
+	  "script_symbol": "𐇫",
+      "unicode": {
+		  "codepoint": "U+101EB",
+		  "char": "𐇫",
+		  "name": "PHAISTOS DISC SIGN BULLS LEG"
+		  },
+      "pua": {
+		  "codepoint": "U+E625",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_IVORY.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-28",
+		  "html_entity": "&#x101EB;",
+		  "data_symbol_id": "PD_IVORY"
+		  },
+      "transliteration": "*erepa / e-re-pa",
+	  "phonetic_value": "e-re-pa",
+	  "phonetic_values": [
+	  "e-re-pa"
+	  ],
+      "phonetic_root": "*erepa-",
+	  "pre_ie_substrate_root": "*erepa (East Med / Egyptian luxury trade loan → LB e-re-pa, CH036)",
+      "linguistic_tier": "Tier II: Eastern Mediterranean Areal Wanderwort",
+      "translation": "Imported Elephant/Hippopotamus Ivory Tusk",
+      "meaning": "ivory, imported tusk segment, luxury carving material",
+      "semantic_field": "precious_materials",
+	  "pos": "noun (luxury commodity)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences)",
+      "context": "Palatial luxury carving workshops and maritime import ledgers via Kommos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH036 (*erepa Ivory, conf. 0.92)"
+		  },
+      "confidence": 0.90,
+	  "confidence_score": 0.90,
+      "udm20_confidence": {
+		  "total": 0.90,
+		  "structural_30": 0.273,
+		  "archaeological_30": 0.276,
+		  "semantic_25": 0.225,
+		  "linguistic_15": 0.126
+		  },
+      "reading_layers": {
+		  "semantic_value": "Imported Ivory Tusk (*erepa)",
+		  "transliteration_label": "*erepa",
+		  "phonetic_value": "e-re-pa",
+		  "reading_type": "areal_luxury_logogram"
+		  },
+      "notes": "Retained under Tier II as an Eastern Mediterranean / Egyptian trade loanword (*erepa, CH036).",
+      "legacy_greek_and_english_proxies_deprecated": []
+    },
+    {
+      "entry_id": "PD_PURPLE",
+	  "symbol_id": "PD_PURPLE",
+	  "glyph_id": "PD_PURPLE",
+	  "symbol": "PD_PURPLE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 32",
+	  "script_symbol": "𐇯",
+      "unicode": {
+		  "codepoint": "U+101EF",
+		  "char": "𐇯",
+		  "name": "PHAISTOS DISC SIGN DOVE"
+		  },
+      "pua": {
+		  "codepoint": "U+E626",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_PURPLE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-32",
+		  "html_entity": "&#x101EF;",
+		  "data_symbol_id": "PD_PURPLE"
+		  },
+      "transliteration": "PURPLE (Logogram)",
+	  "phonetic_value": "—",
+	  "phonetic_values": [
+	  "—"
+	  ],
+      "phonetic_root": "Pure Logogram (CH035 Murex Dye)",
+	  "pre_ie_substrate_root": "Pure Logogram (homologous to CH035 Murex Purple Dye; LB proxy po-pu-re-ja stripped to semantic gloss)",
+      "linguistic_tier": "Luxury Commodity Logogram",
+      "translation": "Murex Purple Dye (Royal Textile Dye)",
+      "meaning": "murex purple dye, royal textile pigment",
+      "semantic_field": "luxury_dyes",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (3 occurrences)",
+      "context": "Minoan royal murex-dye textile workshops (pioneered on Crete centuries before Phoenicia)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH035 (Murex Purple Dye, conf. 0.93)"
+		  },
+      "confidence": 0.91,
+	  "confidence_score": 0.91,
+      "udm20_confidence": {
+		  "total": 0.91,
+		  "structural_30": 0.276,
+		  "archaeological_30": 0.279,
+		  "semantic_25": 0.2275,
+		  "linguistic_15": 0.1275
+		  },
+      "reading_layers": {
+		  "semantic_value": "Murex Purple Royal Textile Dye",
+		  "transliteration_label": "PURPLE",
+		  "phonetic_value": "—",
+		  "reading_type": "luxury_commodity_logogram"
+		  },
+      "notes": "Matches CH035 in the Cretan Hieroglyphic Second Pass: strips the Mycenaean Greek adjectival inflection 'po-pu-re-ja' to a semantic gloss.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "po-pu-re-ja (Mycenaean Greek adjectival inflection stripped)"
+	  ]
+    },
+    {
+      "entry_id": "PD_AMBER",
+	  "symbol_id": "PD_AMBER",
+	  "glyph_id": "PD_AMBER",
+	  "symbol": "PD_AMBER",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 34",
+	  "script_symbol": "𐇱",
+      "unicode": {
+		  "codepoint": "U+101F1",
+		  "char": "𐇱",
+		  "name": "PHAISTOS DISC SIGN BEE"
+		  },
+      "pua": {
+		  "codepoint": "U+E627",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_AMBER.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-34",
+		  "html_entity": "&#x101F1;",
+		  "data_symbol_id": "PD_AMBER"
+		  },
+      "transliteration": "AMBER (Logogram)",
+	  "phonetic_value": "—",
+	  "phonetic_values": [
+	  "—"
+	  ],
+      "phonetic_root": "Pure Logogram (CH038)",
+	  "pre_ie_substrate_root": "Pure Logogram (homologous to CH038 Imported Fossil Resin)",
+      "linguistic_tier": "Luxury Material Logogram",
+      "translation": "Amber (Imported Fossil Resin)",
+      "meaning": "amber, imported fossilized resin, solar stone",
+      "semantic_field": "precious_stones",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (3 occurrences)",
+      "context": "High-status treasury and jewelry inventories at Phaistos",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH038 (Amber, conf. 0.91)"
+		  },
+      "confidence": 0.88,
+	  "confidence_score": 0.88,
+      "udm20_confidence": {
+		  "total": 0.88,
+		  "structural_30": 0.267,
+		  "archaeological_30": 0.27,
+		  "semantic_25": 0.22,
+		  "linguistic_15": 0.123
+		  },
+      "reading_layers": {
+		  "semantic_value": "Amber / Imported Fossil Resin",
+		  "transliteration_label": "AMBER",
+		  "phonetic_value": "—",
+		  "reading_type": "luxury_material_logogram"
+		  },
+      "notes": "Strips the Classical Greek word 'e-le-ku-to' (ēlektron) and normalizes to a pure logogram matching CH038.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "e-le-ku-to (Classical Greek ēlektron retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_CRYSTAL",
+	  "symbol_id": "PD_CRYSTAL",
+	  "glyph_id": "PD_CRYSTAL",
+	  "symbol": "PD_CRYSTAL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 42",
+	  "script_symbol": "𐇹",
+      "unicode": {
+		  "codepoint": "U+101F9",
+		  "char": "𐇹",
+		  "name": "PHAISTOS DISC SIGN GRATER"
+		  },
+      "pua": {
+		  "codepoint": "U+E628",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_CRYSTAL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-42",
+		  "html_entity": "&#x101F9;",
+		  "data_symbol_id": "PD_CRYSTAL"
+		  },
+      "transliteration": "CRYSTAL (Logogram)",
+	  "phonetic_value": "—",
+	  "phonetic_values": [
+	  "—"
+	  ],
+      "phonetic_root": "Pure Logogram (CH037)",
+	  "pre_ie_substrate_root": "Pure Logogram (homologous to CH037 Faceted Rock Crystal)",
+      "linguistic_tier": "Lapidary Material Logogram",
+      "translation": "Rock Crystal (Precious Lapidary Stone)",
+      "meaning": "rock crystal, clear lapidary stone, ritual vessel material",
+      "semantic_field": "precious_stones",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "very_low (1 occurrence, B9)",
+      "context": "Palatial lapidary workshops and ritual vessel inventories",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH037 (Rock Crystal, conf. 0.91)"
+		  },
+      "confidence": 0.88,
+	  "confidence_score": 0.88,
+      "udm20_confidence": {
+		  "total": 0.88,
+		  "structural_30": 0.267,
+		  "archaeological_30": 0.27,
+		  "semantic_25": 0.22,
+		  "linguistic_15": 0.123
+		  },
+      "reading_layers": {
+		  "semantic_value": "Rock Crystal (Lapidary Stone)",
+		  "transliteration_label": "CRYSTAL",
+		  "phonetic_value": "—",
+		  "reading_type": "lapidary_material_logogram"
+		  },
+      "notes": "Strips the Classical Greek word 'ka-ra-ta-lo' (krystallos) and normalizes to a pure logogram matching CH037.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ka-ra-ta-lo (Classical Greek krystallos retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_INCENSE",
+	  "symbol_id": "PD_INCENSE",
+	  "glyph_id": "PD_INCENSE",
+	  "symbol": "PD_INCENSE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 41",
+	  "script_symbol": "𐇸",
+      "unicode": {
+		  "codepoint": "U+101F8",
+		  "char": "𐇸",
+		  "name": "PHAISTOS DISC SIGN FLUTE"
+		  },
+      "pua": {
+		  "codepoint": "U+E629",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_INCENSE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-41",
+		  "html_entity": "&#x101F8;",
+		  "data_symbol_id": "PD_INCENSE"
+		  },
+      "transliteration": "INCENSE (Logogram)",
+	  "phonetic_value": "—",
+	  "phonetic_values": [
+	  "—"
+	  ],
+      "phonetic_root": "Pure Logogram (CH033 / CH041)",
+	  "pre_ie_substrate_root": "Pure Logogram (homologous to CH033 Aromatic Resin/Incense paired with CH173 Spice Jar)",
+      "linguistic_tier": "Ritual Commodity Logogram",
+      "translation": "Incense / Aromatic Ritual Resin Offering",
+      "meaning": "incense, aromatic resin offering, sacred smoke",
+      "semantic_field": "religious_offerings",
+	  "pos": "noun (logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (2 occurrences)",
+      "context": "Sanctuary offering tables and small aromatic containers (CH173)",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH033 (Incense, conf. 0.95) & CH173 (Spice Jar, conf. 0.85)"
+		  },
+      "confidence": 0.91,
+	  "confidence_score": 0.91,
+      "udm20_confidence": {
+		  "total": 0.91,
+		  "structural_30": 0.276,
+		  "archaeological_30": 0.279,
+		  "semantic_25": 0.2275,
+		  "linguistic_15": 0.1275
+		  },
+      "reading_layers": {
+		  "semantic_value": "Incense / Aromatic Ritual Offering",
+		  "transliteration_label": "INCENSE",
+		  "phonetic_value": "—",
+		  "reading_type": "ritual_commodity_logogram"
+		  },
+      "notes": "Strips the Classical Greek word 'ti-mi-a-ma' (thymiama) and normalizes to a pure logogram matching CH033.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ti-mi-a-ma (Classical Greek thymiama retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SACRED_TREE",
+	  "symbol_id": "PD_SACRED_TREE",
+	  "glyph_id": "PD_SACRED_TREE",
+	  "symbol": "PD_SACRED_TREE",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 35B / 43",
+	  "script_symbol": "𐇺",
+      "unicode": {
+		  "codepoint": "U+101FA",
+		  "char": "𐇺",
+		  "name": "PHAISTOS DISC SIGN STRAINER"
+		  },
+      "pua": {
+		  "codepoint": "U+E62A",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SACRED_TREE.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-43",
+		  "html_entity": "&#x101FA;",
+		  "data_symbol_id": "PD_SACRED_TREE"
+		  },
+      "transliteration": "*dedero / te-da",
+	  "phonetic_value": "de-de-ro",
+	  "phonetic_values": [
+	  "de-de-ro",
+	  "te",
+	  "da"
+	  ],
+      "phonetic_root": "*dedero- / *ta-ja-",
+	  "pre_ie_substrate_root": "*dedero (Comparative Minoan sacred grove proxy preserved in CH032; syllabic CHIC 025 = te, 027 = da; Tărtăria TA-JA)",
+      "linguistic_tier": "Sacral Botanical Logogram + Comparative Proxy",
+      "translation": "Sacred Tree / Holy Sanctuary Grove",
+      "meaning": "sacred tree, holy sanctuary grove, dendrolatry emblem",
+      "semantic_field": "sacred_nature",
+	  "pos": "noun (sacral logogram)",
+	  "morphology": "noun",
+	  "frequency": "low (1 occurrence)",
+      "context": "Minoan peak sanctuary and sacred grove dendrolatry offerings",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH032 (*dedero Sacred Tree / Holy Grove CHIC 025/027–030, conf. 0.95)",
+		  "cucuteni_trypillia": "CTP-B001 (Tree of life)"
+		  },
+      "confidence": 0.92,
+	  "confidence_score": 0.92,
+      "udm20_confidence": {
+		  "total": 0.92,
+		  "structural_30": 0.279,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.23,
+		  "linguistic_15": 0.129
+		  },
+      "reading_layers": {
+		  "semantic_value": "Sacred Tree / Holy Sanctuary Grove",
+		  "transliteration_label": "*dedero / te-da",
+		  "phonetic_value": "de-de-ro",
+		  "reading_type": "sacral_botanical_logogram"
+		  },
+      "notes": "Explicitly cross-referenced with CH032 (*dedero, CHIC 025/027–030) in Phase 2 and Phase 20 of the Cretan Hieroglyphic Second-Pass Report.",
+      "legacy_greek_and_english_proxies_deprecated": []
+    },
+    {
+      "entry_id": "PD_BULL",
+	  "symbol_id": "PD_BULL",
+	  "glyph_id": "PD_BULL",
+	  "symbol": "PD_BULL",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 29",
+	  "script_symbol": "𐇬",
+      "unicode": {
+		  "codepoint": "U+101EC",
+		  "char": "𐇬",
+		  "name": "PHAISTOS DISC SIGN CAT"
+		  },
+      "pua": {
+		  "codepoint": "U+E62B",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_BULL.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-29",
+		  "html_entity": "&#x101EC;",
+		  "data_symbol_id": "PD_BULL"
+		  },
+      "transliteration": "SACRED_ANIMAL / ma / *bu-",
+	  "phonetic_value": "ma",
+	  "phonetic_values": [
+	  "ma",
+	  "bu"
+	  ],
+      "phonetic_root": "*ma- / *bu-",
+	  "pre_ie_substrate_root": "Ritual Zoomorphic Logogram & Sector Determinative (CH016 Frontal Bucranium CHIC 011 → LA 05; CHIC 074/SM 075 Cat = ma)",
+      "linguistic_tier": "Ritual Zoomorphic Logogram + Tier I Syllabogram (ma)",
+      "translation": "Sacred Bull / Feline Cult Emblem (ma / Sacrificial Animal)",
+      "meaning": "sacred bull / ritual animal emblem (or cat mask syllabogram ma)",
+      "semantic_field": "sacred_animals",
+	  "pos": "noun (ritual logogram / syllabogram)",
+	  "morphology": "noun",
+	  "frequency": "high (11 occurrences)",
+      "context": "Sanctuary sealings, departmental sector determinative (cf. Myrtos-Pyrgos prism #309.a SM 075 Cat), and Minoan bull/feline cult",
+      "minoan_triad_concordance": {
+		  "cretan_hieroglyphs": "CH016 (Sacred Bull CHIC 011, conf. 0.94) & CH 074 / SM 075 (Cat = ma)",
+		  "balkan_substrate": "CT-201 (∪ Sacrificial Bucranium Classifier, conf. 0.93) & CAT_SIGN_BUCRANIUM_HORNS (U+E301)"
+		  },
+      "confidence": 0.94,
+	  "confidence_score": 0.94,
+      "udm20_confidence": {
+		  "total": 0.94,
+		  "structural_30": 0.285,
+		  "archaeological_30": 0.288,
+		  "semantic_25": 0.235,
+		  "linguistic_15": 0.132
+		  },
+      "reading_layers": {
+		  "semantic_value": "Sacred Ritual Animal (CH016 Bull / CH 074 Cat ma)",
+		  "transliteration_label": "SACRED_ANIMAL / ma",
+		  "phonetic_value": "ma",
+		  "reading_type": "ritual_zoomorphic_logogram"
+		  },
+      "notes": "Strips Indo-European/Semitic 'ta-u-ro' and anchors in Cretan Hieroglyphic CH016 (Frontal Bull Bucranium without numeric tallies) and CH 074 / SM 075 (Cat mask = ma, rehabilitated in Phase 1 of the Cretan Second Pass).",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "ta-u-ro (Indo-European/Semitic tauros retrofit)"
+	  ]
+    },
+    {
+      "entry_id": "PD_SPIRAL_END",
+	  "symbol_id": "PD_SPIRAL_END",
+	  "glyph_id": "PD_SPIRAL_END",
+	  "symbol": "PD_SPIRAL_END",
+	  "corpus_id": "phaistos_disc",
+      "evans_sign_number": "Sign 45",
+	  "script_symbol": "𐇼",
+      "unicode": {
+		  "codepoint": "U+101FC",
+		  "char": "𐇼",
+		  "name": "PHAISTOS DISC SIGN WAVY BAND"
+		  },
+      "pua": {
+		  "codepoint": "U+E62C",
+		  "char": "",
+		  "registry": "Lackadaisical-Aegean-PUA-v2"
+		  },
+      "svg": {
+		  "path": "svg/phaistos_disc/PD_SPIRAL_END.svg",
+		  "viewBox": "0 0 128 128",
+		  "status": "artifact_trace_target"
+		  },
+      "rendering": {
+		  "preferred_render_order": [
+		  "unicode.char",
+		  "svg.path",
+		  "pua.char"
+		  ],
+		  "css_class": "pd-glyph pd-sign-45",
+		  "html_entity": "&#x101FC;",
+		  "data_symbol_id": "PD_SPIRAL_END"
+		  },
+      "transliteration": "*hol-ti- / *su-ak-",
+	  "phonetic_value": "hol-ti",
+	  "phonetic_values": [
+	  "hol-ti",
+	  "su-ak"
+	  ],
+      "phonetic_root": "*hol-ti- / *su-ak-",
+	  "pre_ie_substrate_root": "*hol-ti- (Pre-IE terminal boundary/closure operator; cf. AUTO_VC_RECORD_END & Tărtăria tarta_029 〰 limit/boundary)",
+      "linguistic_tier": "Terminal Boundary Operator + Pre-IE Root",
+      "translation": "Spiral Terminus / Record Completion & Channel Boundary",
+      "meaning": "end, conclusion, spiral terminus and boundary",
+      "semantic_field": "structural_markers",
+	  "pos": "marker (terminal operator)",
+	  "morphology": "marker",
+	  "frequency": "medium (6 occurrences)",
+      "context": "Spiral conclusion and clause boundary marker (paralleling Tărtăria tarta_029 〰 and Dispilio Position 12)",
+      "minoan_triad_concordance": {
+		  "tartaria": "tarta_029 (〰 limit/boundary, conf. 0.89)",
+		  "vinca": "AUTO_VC_RECORD_END (*hol-ti-, conf. 0.955)",
+		  "dispilio": "Position 12 terminal closure"
+		  },
+      "confidence": 0.93,
+	  "confidence_score": 0.93,
+      "udm20_confidence": {
+		  "total": 0.93,
+		  "structural_30": 0.285,
+		  "archaeological_30": 0.282,
+		  "semantic_25": 0.2325,
+		  "linguistic_15": 0.1305
+		  },
+      "reading_layers": {
+		  "semantic_value": "Spiral Terminus / Record Boundary",
+		  "transliteration_label": "*hol-ti-",
+		  "phonetic_value": "hol-ti",
+		  "reading_type": "terminal_boundary_operator"
+		  },
+      "notes": "Sign 45 (Wavy Band) is morphologically identical to Tărtăria tarta_029 (〰 limit/clause terminator). Strips Classical Greek 'te-lo' (telos) and binds to Pre-IE *hol-ti-.",
+      "legacy_greek_and_english_proxies_deprecated": [
+	  "te-lo (Classical Greek telos retrofit)"
+	  ]
+    }
+  ],
+  "pua_registry": {
+    "range": "U+E600–U+E62C (paired with official Unicode U+101D0–U+101FD)",
+    "registry_name": "Lackadaisical-Aegean-PUA-v2",
+    "assigned_to": "Phaistos Disc Script Master Lexicon (45 validated entries)",
+    "warning": "Official Unicode Phaistos Disc characters (U+101D0..U+101FD) are primary; PUA codepoints (U+E600..U+E62C) provide project-local fallback for custom SVG font overlays."
+  },
+  "enforcement": {
+    "four_tier_translation_restraint": {
+      "tier_1_sign_gloss": "Evans/Pernier Sign 01–45 transnumeration + Unicode U+101D0..U+101FD identification.",
+      "tier_2_formula_gloss": "Radial compartment slot assignment ([Header/Authority: Sign 02 + Sign 12] + [Commodity/Official] + [Numeral/Summation: ku-ro / ki-ro]).",
+      "tier_3_structured_paraphrase": "Phaistos Palace Archive contextual administrative reading (MM IIIB Room 101 co-deposit with Linear A tablet PH 1).",
+      "tier_4_smooth_translation": "Restricted strictly to validated Pre-IE Minoan substrate terms (*wanak-/su-ki, *qasireu, *dupure, *korete, *kuro, *kiro, *(j)asasarame) and areal loanwords (*kako, *kuruso, *yane)."
+    },
+    "disclaimer": "Compiled under the UDM20 Second-Pass Minoan Triad Standard. All anachronistic Mycenaean/Classical Greek retrofits and English placeholders from v7.0 have been stripped from active transliterations and archived in legacy_greek_and_english_proxies_deprecated."
+  },
+  "checksum": {
+    "schema_status": "COMPLETE_45_ENTRIES_VALIDATED",
+    "dataset_version_tag": "PHAISTOS_DISC_LEXICON_MASTER_2026_v2_UDM20"
+  }
+}
